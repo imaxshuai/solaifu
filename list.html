@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>搜来福首页</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-responsive.css">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="css/list.css">
+    <link rel="stylesheet" href="css/ad.css">
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/load.js"></script>
+</head>
+<body>
+
+<div id="home-header">
+
+    <div id="PUB_HEADER"></div>
+    <div id="SEARCH"></div>
+
+</div>
+<div class="nav-help nav-help-01"><a href="./index.html"><b>搜来福</b></a> &gt; <a href="./house.html">南京房产信息</a> &gt; <a href="./index.html">南京租售</a></div>
+<!---------------条件筛选部分--------------->
+<div class="filter">
+    <ul class="parse">
+        <li class="parse-price">
+            <div class="title">类目：</div>
+            <div class="position">
+                <span class="active"><a href="#">不限</a></span> <span><a href="#">新房楼盘</a></span>  <span><a href="#">二手房</a></span>  <span><a href="#">房屋出租</a></span>  <span><a href="#">求租房屋</a></span>  <span><a href="#">短租日租</a></span>  <span><a href="#">商铺出租</a></span>  <span><a href="#">商铺出售</a></span>  <span><a href="#">商铺转让</a></span>  <span><a href="#">写字楼出租</a></span>  <span><a href="#">写字楼出售</a></span>  <span><a href="#">厂房仓库</a></span>  <span><a href="#">土地农庄</a></span>  <span><a href="#">车位</a></span>
+            </div>
+        </li>
+        <li class="parse-price">
+            <div class="title">城市：</div>
+            <div class="position">
+                <span class="active"><a href="#">全南京</a></span>  <span><a href="#">鼓楼</a></span>  <span><a href="#">建邺</a></span>  <span><a href="#">白下</a></span>  <span><a href="#">秦淮</a></span>  <span><a href="#">下关</a></span>  <span><a href="#">雨花台</a></span>  <span><a href="#">浦口</a></span>  <span><a href="#">栖霞</a></span>  <span><a href="#">江宁</a></span>  <span><a href="#">六合</a></span>  <span><a href="#">高淳</a></span>  <span><a href="#">溧水</a></span>  <span><a href="#">大厂</a></span>  <span><a href="#">南京周边</a></span>
+            </div>
+        </li>
+        <li class="parse-price">
+            <div class="title">城市：</div>
+            <div class="position">
+                <span class="active"><a>不限</a></span>  <span><a href="#">500元以下</a></span>  <span><a href="#">500-1000元</a></span>  <span><a href="#">1000-1500元</a></span>  <span><a href="#">1500-2000元</a></span>  <span><a href="#">2000-3000元</a></span>  <span><a href="#">3000-5000元</a></span>  <span><a href="#">5000元以上</a></span>
+                <div class="custom"><input type="text" /> - <input type="text" /> 元
+                    <button>筛选</button>
+                </div>
+            </div>
+        </li>
+
+        <li class="parse-price">
+            <div class="title">更多：</div>
+            <div class="position">
+                <select>
+                    <option disabled selected>工作经验</option>
+                    <option value="无经验">无经验</option>
+                    <option value="应届生">应届生</option>
+                    <option value="1年以下">1年以下</option>
+                    <option value="1-2年">1-2年</option>
+                    <option value="2-3年">2-3年</option>
+                    <option value="3-5年">3-5年</option>
+                    <option value="5-10年">5-10年</option>
+                    <option value="10年以上">10年以上</option>
+                </select>
+                <select>
+                    <option disabled selected>最高学历</option>
+                    <option value="初中及以下">初中及以下</option>
+                    <option value="高中">高中</option>
+                    <option value="中专">中专</option>
+                    <option value="大专">大专</option>
+                    <option value="本科">本科</option>
+                    <option value="硕士及以上">硕士</option>
+                    <option value="硕士及以上">硕士以上</option>
+                </select>
+                <select>
+                    <option disabled selected>工资薪水</option>
+                    <option value="面议">面议</option>
+                    <option value="2000元以下">2000元以下</option>
+                    <option value="2000-3000元">2000-3000</option>
+                    <option value="3000-5000元">3000-5000</option>
+                    <option value="5000-8000元">5000-8000</option>
+                    <option value="8000-10000元">8000-10000</option>
+                    <option value="10000-15000元">10000-15000</option>
+                    <option value="15000-20000元">15000-20000</option>
+                    <option value="20000元以上">20000元以上</option>
+                </select>
+                <select>
+                    <option selected disabled>更新时间</option>
+                    <option value="不限">不限</option>
+                    <option value="一天">一天</option>
+                    <option value="三天">三天</option>
+                    <option value="一周">一周</option>
+                    <option value="两周">两周</option>
+                    <option value="一个月">一个月</option>
+                </select>
+                <div class="custom custom-long">
+                    <input type="text" placeholder="附加搜索条件" /><input type="submit" value="搜索">
+                </div>
+            </div>
+
+        </li>
+
+    </ul>
+
+    <div class="filter-term">
+        <p>筛选条件：
+            <span>1000-1500元<i class="icon icon-X"></i></span>
+            <span>三室<i class="icon icon-X"></i></span>
+            <span>单间出租<i class="icon icon-X"></i></span>
+        </p>
+    </div>
+
+    <div class="sort">
+        <div class="term">
+            <span class="active">经纪人</span>
+            <span>个人</span>
+        </div>
+        <div class="sort-term">
+            排序：
+            <span class="active">默认</span>
+            <span>最新</span>
+        </div>
+    </div>
+</div>
+
+<div class="list-content">
+
+    <div class="item-list">
+
+        <div class="item">
+            <img src="./img/fang07.jpg" >
+            <div class="item-info">
+                <a href="./detail.html"><h3>一号线天隆寺地铁站楚翘城附近凤翔山庄精装主卧</h3><span class="superWarning">[个人]</span></a><i class="icon icon-diamond"></i>
+                <p>整租<span>|</span>2室2厅1卫<span>|</span>92㎡<span>|</span>南北朝向<span>|</span>中（共11）层<span>|</span>中等装修</p>
+                <div class="line"><span>经纪人: xxx</span></div>
+            </div>
+            <h4>2200元/月</h4>
+            <span class="time">10月20日</span>
+        </div>
+
+        <div class="item">
+            <img src="./img/fang08.jpg" >
+            <div class="item-info">
+                <a href="./detail.html"><h3>一号线天隆寺地铁站凤翔山庄精装主卧精装主卧精装主卧精装主卧</h3><span class="superWarning">[个人]</span></a><i class="icon icon-vip"></i><i class="icon icon-jin"></i><i class="icon icon-top"></i><i class="icon icon-hot"></i>
+                <p>整租<span>|</span>2室2厅1卫<span>|</span>92㎡<span>|</span>南北朝向<span>|</span>中（共11）层<span>|</span>中等装修</p>
+                <div class="line"><span>经纪人: xxx</span></div>
+            </div>
+            <h4>1800元/月</h4>
+            <span class="time">10月20日</span>
+        </div>
+
+        <div class="item">
+            <img src="./img/fang07.jpg" >
+            <div class="item-info">
+                <a href="./detail.html"><h3>楚翘城附近凤翔山庄精装主卧</h3><span class="superWarning">[个人]</span></a><i class="icon icon-vip"></i><i class="icon icon-yin"></i><i class="icon icon-top"></i><i class="icon icon-hot"></i>
+                <p>整租<span>|</span>2室2厅1卫<span>|</span>92㎡<span>|</span>南北朝向<span>|</span>中（共11）层<span>|</span>中等装修</p>
+                <div class="line"><span>经纪人: xxx</span></div>
+            </div>
+            <h4>2000元/月</h4>
+            <span class="time">10月20日</span>
+        </div>
+
+        <div class="item">
+            <img src="./img/fang08.jpg" >
+            <div class="item-info">
+                <a href="./detail.html"><h3>一号线天隆寺地铁站 楚翘城附近凤翔山庄</h3><span class="superWarning">[个人]</span></a><i class="icon icon-vip"></i><i class="icon icon-tong"></i><i class="icon icon-top"></i><i class="icon icon-hot"></i>
+                <p>整租<span>|</span>2室2厅1卫<span>|</span>92㎡<span>|</span>南北朝向<span>|</span>中（共11）层<span>|</span>中等装修</p>
+                <div class="line"><span>经纪人: xxx</span></div>
+            </div>
+            <h4>2200元/月</h4>
+            <span class="time">10月20日</span>
+        </div>
+
+        <div class="item">
+            <img src="./img/fang07.jpg" >
+            <div class="item-info">
+                <a href="./detail.html"><h3>一号线天隆寺地铁站楚翘城附近凤翔山庄精装主卧</h3><span class="superWarning">[个人]</span></a>
+                <p>整租<span>|</span>2室2厅1卫<span>|</span>92㎡<span>|</span>南北朝向<span>|</span>中（共11）层<span>|</span>中等装修</p>
+                <div class="line"><span>经纪人: xxx</span></div>
+            </div>
+            <h4>2200元/月</h4>
+            <span class="time">1分钟前</span>
+        </div>
+
+        <div class="item">
+            <img src="./img/fang08.jpg" >
+            <div class="item-info">
+                <a href="./detail.html"><h3>一号线天隆寺地铁站凤翔山庄精装主卧精装主卧精装主卧精装主卧</h3><span class="superWarning">[个人]</span></a>
+                <p>整租<span>|</span>2室2厅1卫<span>|</span>92㎡<span>|</span>南北朝向<span>|</span>中（共11）层<span>|</span>中等装修</p>
+                <div class="line"><span>经纪人: xxx</span></div>
+            </div>
+            <h4>1800元/月</h4>
+            <span class="time">10月20日</span>
+        </div>
+
+        <div class="item">
+            <img src="./img/fang07.jpg" >
+            <div class="item-info">
+                <a href="./detail.html"><h3>一号线天隆寺地铁站楚翘城附近凤翔山庄精装主卧</h3><span class="superWarning">[个人]</span></a>
+                <p>整租<span>|</span>2室2厅1卫<span>|</span>92㎡<span>|</span>南北朝向<span>|</span>中（共11）层<span>|</span>中等装修</p>
+                <div class="line"><span>经纪人: xxx</span></div>
+            </div>
+            <h4>2200元/月</h4>
+            <span class="time">1分钟前</span>
+        </div>
+
+        <div class="item">
+            <img src="./img/fang08.jpg" >
+            <div class="item-info">
+                <a href="./detail.html"><h3>一号线天隆寺地铁站凤翔山庄精装主卧精装主卧精装主卧精装主卧</h3><span class="superWarning">[个人]</span></a>
+                <p>整租<span>|</span>2室2厅1卫<span>|</span>92㎡<span>|</span>南北朝向<span>|</span>中（共11）层<span>|</span>中等装修</p>
+                <div class="line"><span>经纪人: xxx</span></div>
+            </div>
+            <h4>1800元/月</h4>
+            <span class="time">2小时前</span>
+        </div>
+
+        <div class="item">
+            <img src="./img/fang07.jpg" >
+            <div class="item-info">
+                <a href="./detail.html"><h3>一号线天隆寺地铁站楚翘城附近凤翔山庄精装主卧</h3><span class="superWarning">[个人]</span></a>
+                <p>整租<span>|</span>2室2厅1卫<span>|</span>92㎡<span>|</span>南北朝向<span>|</span>中（共11）层<span>|</span>中等装修</p>
+                <div class="line"><span>经纪人: xxx</span></div>
+            </div>
+            <h4>2200元/月</h4>
+            <span class="time">3小时前</span>
+        </div>
+
+        <div class="item">
+            <img src="./img/fang08.jpg" >
+            <div class="item-info">
+                <a href="./detail.html"><h3>一号线天隆寺地铁站凤翔山庄精装主卧精装主卧精装主卧精装主卧</h3><span class="superWarning">[个人]</span></a>
+                <p>整租<span>|</span>2室2厅1卫<span>|</span>92㎡<span>|</span>南北朝向<span>|</span>中（共11）层<span>|</span>中等装修</p>
+                <div class="line"><span>经纪人: xxx</span></div>
+            </div>
+            <h4>1800元/月</h4>
+            <span class="time">10月20日</span>
+        </div>
+
+        <div class="item">
+            <img src="./img/fang03.jpg" >
+            <div class="item-info">
+                <a href="./detail.html"><h3>楚翘城附近凤翔山庄精装主卧</h3><span class="superWarning">[个人]</span></a>
+                <p>整租<span>|</span>2室2厅1卫<span>|</span>92㎡<span>|</span>南北朝向<span>|</span>中（共11）层<span>|</span>中等装修</p>
+                <div class="line"><span>经纪人: xxx</span></div>
+            </div>
+            <h4>2000元/月</h4>
+            <span class="time">10月20日</span>
+        </div>
+
+        <div class="item">
+            <img src="./img/fang04.jpg" >
+            <div class="item-info">
+                <a href="./detail.html"><h3>一号线天隆寺地铁站 楚翘城附近凤翔山庄</h3><span class="superWarning">[个人]</span></a>
+                <p>整租<span>|</span>2室2厅1卫<span>|</span>92㎡<span>|</span>南北朝向<span>|</span>中（共11）层<span>|</span>中等装修</p>
+                <div class="line"><span>经纪人: xxx</span></div>
+            </div>
+            <h4>2200元/月</h4>
+            <span class="time">10月20日</span>
+        </div>
+
+
+        <div class="item">
+            <img src="./img/item01.jpg" >
+            <div class="item-info">
+                <a href="./detail.html"><h3>一号线天隆寺地铁站 楚翘城附近凤翔山庄精装主卧</h3><span class="superWarning">[个人]</span></a>
+                <p>整租<span>|</span>2室2厅1卫<span>|</span>92㎡<span>|</span>南北朝向<span>|</span>中（共11）层<span>|</span>中等装修</p>
+                <div class="line"><span>经纪人: xxx</span></div>
+            </div>
+            <h4>2200元/月</h4>
+            <span class="time">10月20日</span>
+        </div>
+
+        <div class="item">
+            <img src="./img/item01.jpg" >
+            <div class="item-info">
+                <a href="./detail.html"><h3>一号线天隆寺地铁站 楚翘城附近凤翔山庄精装主卧</h3><span class="superWarning">[个人]</span></a>
+                <p>整租<span>|</span>2室2厅1卫<span>|</span>92㎡<span>|</span>南北朝向<span>|</span>中（共11）层<span>|</span>中等装修</p>
+                <div class="line"><span>经纪人: xxx</span></div>
+            </div>
+            <h4>2200元/月</h4>
+            <span class="time">10月20日</span>
+        </div>
+
+        <div class="item">
+            <img src="./img/item01.jpg" >
+            <div class="item-info">
+                <a href="./detail.html"><h3>一号线天隆寺地铁站 楚翘城附近凤翔山庄精装主卧</h3><span class="superWarning">[个人]</span></a>
+                <p>整租<span>|</span>2室2厅1卫<span>|</span>92㎡<span>|</span>南北朝向<span>|</span>中（共11）层<span>|</span>中等装修</p>
+                <div class="line"><span>经纪人: xxx</span></div>
+            </div>
+            <h4>2200元/月</h4>
+            <span class="time">10月20日</span>
+        </div>
+
+        <div class="item">
+            <div class="item-info">
+                <a href="./detail.html"><h3>一号线天隆寺地铁站 楚翘城附近凤翔山庄精装主卧</h3><span class="superWarning">[个人]</span></a>
+                <p>整租<span>|</span>2室2厅1卫<span>|</span>92㎡<span>|</span>南北朝向<span>|</span>中（共11）层<span>|</span>中等装修</p>
+                <div class="line"><span>经纪人: xxx</span></div>
+            </div>
+            <h4>2200元/月</h4>
+            <span class="time">10月20日</span>
+        </div>
+
+        <div class="item">
+            <img src="./img/fang02.jpg" >
+            <div class="item-info">
+                <a href="./detail.html"><h3>一号线天隆寺地铁站 楚翘城附近凤翔山庄精装主卧</h3><span class="superWarning">[个人]</span></a>
+                <p>整租<span>|</span>2室2厅1卫<span>|</span>92㎡<span>|</span>南北朝向<span>|</span>中（共11）层<span>|</span>中等装修</p>
+                <div class="line"><span>经纪人: xxx</span></div>
+            </div>
+            <h4>2200元/月</h4>
+            <span class="time">10月20日</span>
+        </div>
+
+        <div class="item">
+            <img src="./img/fang01.jpg" >
+            <div class="item-info">
+                <a href="./detail.html"><h3>一号线天隆寺地铁站 楚翘城附近凤翔山庄精装主卧</h3><span class="superWarning">[个人]</span></a>
+                <p>整租<span>|</span>2室2厅1卫<span>|</span>92㎡<span>|</span>南北朝向<span>|</span>中（共11）层<span>|</span>中等装修</p>
+                <div class="line"><span>经纪人: xxx</span></div>
+            </div>
+            <h4>2200元/月</h4>
+            <span class="time">10月20日</span>
+        </div>
+
+        <div class="page">
+            <div class="pagination">
+                <ul>
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">上一页</a></li>
+                    <li><a href="#" class="active">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">6</a></li>
+                    <li><a href="#">7</a></li>
+                    <li><a href="#">下一页</a></li>
+                    <li><a href="#" style="border-radius: 0 4px 4px 0">尾页</a></li>
+                    <div><p>共30页，跳转至</p><input type="text" /><p>页</p></div>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="LIST_AD_RIGHT"></div>
+
+</div>
+
+
+
+
+
+
+<!-----------------广告---------------------->
+<div id="LIST_AD_FOOTER"></div>
+
+<!---------------首页页脚部分--------------->
+<div id="PUB_FOOTER"></div>
+
+
+</body>
+</html>

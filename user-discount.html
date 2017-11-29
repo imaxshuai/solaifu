@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>搜来福首页</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-responsive.css">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="css/user.css">
+    <link rel="stylesheet" href="css/recharge.css">
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/load.js"></script>
+</head>
+<body>
+
+<div id="PUB_HEADER"></div>
+<div id="SEARCH"></div>
+
+<!---------------用户中心头部资料界面--------------->
+<div class="user">
+    <div id="USERINFO_TOP"></div>
+
+    <div class="content">
+
+        <div class="left">
+            <div id="USER_LIST"></div>
+        </div>
+
+        <div class="right">
+            <div class="header">
+                <ul>
+                    <li class="active">优惠卷</li>
+                    <li class="active">优惠券明细</li>
+                </ul>
+            </div>
+            <div class="info money">
+
+                <ul>
+                    <li>
+                        <div class="money-box">
+                            <div class="top">
+                                <p>优惠剩余金额(元)</p>
+                                <h3>1500.00</h3>
+                            </div>
+                            <div class="bottom">
+                                <div class="group">
+                                    <p>专有金额(元)</p>
+                                    <h4>1500.00</h4>
+                                </div>
+                                <div class="group">
+                                    <p>福币金额(元)</p>
+                                    <h4>0.00</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <table class="table table-hover">
+                            <tr>
+                                <td class="no-border long"><a href="#"><h4>Iphone6s 大甩卖<span>置顶（30）元</span></h4></a></td>
+                                <td class="no-border">2017-08-25 10:36</td>
+                            </tr>
+                            <tr>
+                                <td class="no-border long"><a href="#"><h4>Iphone6s 大甩卖<span>刷新（10）元</span></h4></a></td>
+                                <td class="no-border">2017-08-25 10:36</td>
+                            </tr>
+                        </table>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<div id="recharge" class="recharge modal hide fade in" style="display: none;">
+    <div class="modal-header">
+        <a class="close" data-dismiss="modal">×</a>
+        <h3>账户充值</h3>
+    </div>
+    <form action="">
+        <div class="group">
+            <span>充值数量 ：</span><input type="number">元
+        </div>
+        <div class="group">
+            <span>充值方式 ：</span>
+            <label><input type="radio" name="rechargeWay" value="支付宝" checked />支付宝</label>
+            <label><input type="radio" name="rechargeWay" value="微信" />微信</label>
+        </div>
+        <div class="group">
+            <span>应付金额 ：</span><span class="superWarning"> 50 元</span><br/>
+        </div>
+        <div class="QR">
+            <img src="./img/zfbewm.png" alt="支付宝二维码" />
+            <p>支付宝付款</p>
+        </div>
+    </form>
+</div>
+
+<!---------------首页页脚部分--------------->
+<div id="PUB_FOOTER"></div>
+
+
+</body>
+</html>

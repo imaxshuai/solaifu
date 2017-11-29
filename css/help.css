@@ -1,0 +1,133 @@
+body {
+  background-color: #eeeeee; }
+
+.user {
+  width: 1190px;
+  margin: 20px auto;
+  font-size: 14px;
+  min-height: 800px;
+  position: relative; }
+  .user .header-top {
+    padding: 20px 50px;
+    height: 60px;
+    background: #fff; }
+    .user .header-top ul li {
+      width: 25%;
+      float: left;
+      text-align: center; }
+      .user .header-top ul li h4 {
+        line-height: 38px; }
+        .user .header-top ul li h4 i {
+          vertical-align: top; }
+      .user .header-top ul li a:hover {
+        color: #999 !important; }
+  .user .content {
+    width: 1190px;
+    margin: 20px 0;
+    position: relative; }
+    .user .content .left {
+      width: 200px;
+      background-color: #fff;
+      margin-right: 20px;
+      padding: 20px 0;
+      display: inline-block;
+      float: left; }
+      .user .content .left .item-group h4 {
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 10px;
+        margin: 10px 20px; }
+      .user .content .left .item-group ul li {
+        cursor: pointer; }
+        .user .content .left .item-group ul li.active a {
+          color: #fa0064;
+          font-weight: bold;
+          background-color: #f8f8f8; }
+        .user .content .left .item-group ul li div {
+          display: none;
+          zoom: 1; }
+          .user .content .left .item-group ul li div a {
+            width: 150px;
+            padding: 0 0 0 50px; }
+        .user .content .left .item-group ul li a {
+          width: 160px;
+          padding: 0 20px;
+          display: block;
+          line-height: 35px;
+          margin: 10px 0;
+          font-size: 14px;
+          color: #666; }
+          .user .content .left .item-group ul li a.active {
+            background-color: #f8f8f8;
+            color: orange; }
+            .user .content .left .item-group ul li a.active .icon {
+              transform: rotate(-180deg); }
+          .user .content .left .item-group ul li a:hover {
+            background-color: #fa0064;
+            color: #fff !important; }
+          .user .content .left .item-group ul li a .icon {
+            width: 14px;
+            height: 8px;
+            background: url("../img/icon.png") no-repeat 0px -68px; }
+    .user .content .right {
+      width: 970px;
+      display: inline-block; }
+      .user .content .right .header {
+        background: #ffffff;
+        height: 40px;
+        padding: 0; }
+        .user .content .right .header ul {
+          height: 39px;
+          border-bottom: 1px solid #ccc; }
+          .user .content .right .header ul li {
+            line-height: 40px;
+            color: #666;
+            font-size: 16px;
+            display: inline-block;
+            *display: inline;
+            *zoom: 1;
+            padding: 0 20px;
+            cursor: pointer; }
+            .user .content .right .header ul li:hover, .user .content .right .header ul li.active {
+              height: 38px;
+              border-bottom: 3px solid #fa0064;
+              color: #fa0064;
+              font-weight: bold; }
+      .user .content .right .info {
+        width: 100%;
+        margin-top: 10px;
+        background-color: #ffffff;
+        min-height: 300px; }
+        .user .content .right .info ul li {
+          padding: 20px; }
+          .user .content .right .info ul li .superWarning {
+            margin-right: 10px; }
+          .user .content .right .info ul li .question {
+            background-color: #eee;
+            padding: 10px 20px; }
+            .user .content .right .info ul li .question div {
+              width: 40%;
+              display: inline-block;
+              *display: inline;
+              *zoom: 1; }
+              .user .content .right .info ul li .question div h5 {
+                margin: 5px 0; }
+          .user .content .right .info ul li .answer div {
+            margin: 30px 0;
+            border-bottom: 1px dashed #ddd; }
+            .user .content .right .info ul li .answer div h4 {
+              color: #666;
+              font-size: 16px; }
+            .user .content .right .info ul li .answer div pre {
+              font-size: 12px;
+              line-height: 30px;
+              background-color: #ffffff;
+              border: none;
+              padding: 0 35px;
+              font-family: "Microsoft YaHei"; }
+              .user .content .right .info ul li .answer div pre a {
+                color: #fa0064; }
+            .user .content .right .info ul li .answer div img {
+              margin: 10px 0 20px 35px;
+              max-width: 860px; }
+
+/*# sourceMappingURL=help.css.map */

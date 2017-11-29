@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>搜来福首页</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-responsive.css">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/publish.css">
+    <link rel="stylesheet" href="./css/demo.css">
+    <link rel="stylesheet" href="css/webuploader.css">
+    <link rel="stylesheet" href="css/search.css">
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/load.js"></script>
+    <script src="js/webuploader.js"></script>
+</head>
+<body>
+
+<div id="PUB_HEADER"></div>
+
+<div class="step-box">
+    <div class="step active">
+        <span>1</span>
+        <i class="icon icon-step"></i>
+        选择信息分类
+        <a href="./publish-01.html" class="to-public-class">[ 重选 ]</a>
+    </div>
+    <div class="step active">
+        <span>2</span>
+        <i class="icon icon-step"></i>
+        填写信息内容
+    </div>
+    <div class="step">
+        <span>3</span>
+        <i class="icon icon-step"></i>
+        发布成功
+    </div>
+</div>
+<!---------------选择信息填写--------------->
+<div class="publish">
+    <div class="content">
+        <form class="pub-form">
+            <div class="form-group">
+                <p><i class="text-warning">*</i>信息标题 ：</p><input class="title" type="text" />
+            </div>
+            <div class="form-group">
+                <p><i class="text-warning">*</i>身份 ：</p>
+                <div>
+                    <label class="radio"><input type="radio" name="status" value="大学生" />大学生</label>
+                    <label class="radio"><input type="radio" name="status" value="专业教师" />专业教师</label>
+                    <label class="radio"><input type="radio" name="status" value="外教" />外教</label>
+                    <label class="radio"><input type="radio" name="status" value="其它" />其它</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <p><i class="text-warning">*</i>辅导阶段 ：</p>
+                <div>
+                    <label class="checkbox"><input type="checkbox" name="area" value="小学" />小学</label>
+                    <label class="checkbox"><input type="checkbox" name="area" value="初中" />初中</label>
+                    <label class="checkbox"><input type="checkbox" name="area" value="高中" />高中</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <p><i class="text-warning">*</i>辅导科目 ：</p>
+                <div>
+                    <label class="checkbox"><input type="checkbox" name="area" value="数学" />数学</label>
+                    <label class="checkbox"><input type="checkbox" name="area" value="英语" />英语</label>
+                    <label class="checkbox"><input type="checkbox" name="area" value="语文" />语文</label>
+                    <label class="checkbox"><input type="checkbox" name="area" value="物理" />物理</label>
+                    <label class="checkbox"><input type="checkbox" name="area" value="化学" />化学</label>
+                    <label class="checkbox"><input type="checkbox" name="area" value="竞赛" />竞赛</label>
+                    <label class="checkbox"><input type="checkbox" name="area" value="艺术" />艺术</label>
+                    <label class="checkbox"><input type="checkbox" name="area" value="史地政生" />史地政生</label>
+                    <label class="checkbox"><input type="checkbox" name="area" value="高考复读" />高考复读</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <p><i class="text-warning">*</i>价格 ：</p>
+                <input class="small" type="text">
+                <i> 元/小时</i>
+            </div>
+
+            <div class="form-group">
+                <!--文件上传插件-->
+                <p><i class="text-warning">*</i>个人照片 ：</p>
+                <input type="file" />
+            </div>
+
+            <div class="form-group">
+                <p>详情描述 ：</p>
+                <textarea ></textarea>
+            </div>
+
+            <div class="form-group">
+                <p><i class="text-warning">*</i>联系人 ：</p>
+                <input type="text">
+            </div>
+            <div class="form-group">
+                <p><i class="text-warning">*</i>性别 ：</p>
+                <div>
+                    <label class="radio"><input type="radio" name="sex" value="男" />男</label>
+                    <label class="radio"><input type="radio" name="sex" value="女" />女</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <p><i class="text-warning">*</i>联系电话 ：</p>
+                <input type="text">
+            </div>
+            <div class="form-group">
+                <p>QQ ：</p>
+                <input type="text">
+            </div>
+            <div class="form-group">
+                <p><i class="text-warning">*</i>验证码 ：</p>
+                <input type="text">
+            </div>
+
+            <button type="submit">确认提交</button>
+
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

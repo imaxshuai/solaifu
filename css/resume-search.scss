@@ -1,0 +1,252 @@
+body{
+  background-color: #f0f2f2;
+}
+.resume-search{
+  min-height: 480px;
+  width: 1000px;
+  margin: 10px auto;
+  background-color: #fff;
+  padding: 100px 0;
+  .form{
+    width: 640px;
+  }
+  .submit-btn{
+    input{
+      background-color: #fa0064;
+      border: none;
+      padding: 5px 25px;
+      color: white;
+      border-radius: 3px;
+      &:hover{
+        opacity: 0.7;
+      }
+    }
+  }
+  .form-group{
+    width: 640px!important;
+    min-height: 55px;
+    margin: 0 140px;
+    span{
+      width: 90px;
+      line-height: 33px;
+      display: inline-block;
+      text-align: right;
+      margin-right: 20px;
+    }
+    input{
+      width: 500px;
+      height: 30px;
+      display: inline-block;
+      vertical-align: top;
+      border-radius: 0;
+      margin: 0;
+      padding: 0 10px;
+    }
+    textarea{
+      width: 508px;
+      height: 100px;
+      vertical-align: top;
+      border-radius: 0;
+      margin-bottom: 50px;
+    }
+    input[type="file"] {
+      height: 30px;
+      line-height: 25px;
+      padding-top: 5px;
+    }
+  }
+  .form-group-more{
+    select{
+      width: 238px;
+      height: 33px;
+      border-radius: 0;
+      vertical-align: top;
+    }
+    input{
+      width: 216px;
+      height: 30px;
+      border-radius: 0;
+      vertical-align: top;
+    }
+    span{
+      width: 30px;
+      text-align: center;
+      margin: 0 !important;
+      &:first-child{
+        width: 90px;
+        text-align: right;
+        margin-right: 20px !important;
+      }
+    }
+
+  }
+
+}
+
+.company-info{
+  form{
+    width: 800px;
+    margin: 0 auto;
+  }
+    h3{
+      margin-bottom: 50px;
+    }
+
+    .form-group{
+      width: 350px!important;
+      min-height: 50px;
+      margin: 0;
+      display: inline-block;
+      *display: inline;
+      *zoom: 1;
+      &.form-group-big{
+        width: 100% !important;
+        margin-bottom: 10px;
+        textarea{
+          width: 560px!important;
+          height: 150px;
+          vertical-align: top;
+          margin: 15px 0;
+        }
+      }
+    }
+
+    .form-group{
+      span{
+        line-height: 50px;
+        margin-right: 20px;
+      }
+      input{
+        width: 200px;
+        border-radius: 0;
+        margin-top: 5px;
+      }
+      select{
+        border-radius: 0;
+        height: 35px;
+        margin-top: 5px;
+      }
+      textarea{
+        width: 508px!important;
+        border-radius: 0;
+      }
+      label{
+        display: inline-block;
+        margin-right: 20px;
+        input{
+          margin-top: -2px;
+        }
+      }
+    }
+
+    input[type=submit]{
+      margin: 50px 335px;
+      padding: 10px 30px;
+      background-color: #fa0064;
+      border: none;
+      color: #fff;
+      display: block;
+    }
+
+}
+
+.resume-search-list{
+  width: 960px;
+  padding: 20px;
+  table{
+    tr{
+      &:first-child{
+        border-bottom: 1px solid #ddd;
+        td{
+          border-top: none;
+        }
+      }
+      td{
+        line-height: 30px;
+        &:first-child{
+          text-align: center;
+        }
+        h5{
+          margin: 0;
+          line-height: 30px;
+          width: 240px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+        input{
+          margin: 0;
+        }
+        .download{
+          padding: 3px 15px;
+          background-color: #fa0064;
+          color: #fff;
+          border-radius: 3px;
+          font-size: 12px;
+          &:hover{
+            color: #fff!important;
+            opacity: 0.7;
+          }
+        }
+      }
+    }
+  }
+  .choose-download{
+    float: right;
+    span{
+      margin-right: 40px;
+      cursor: pointer;
+      color: #000;
+      &:hover{
+        color: #999;
+      }
+    }
+  }
+}
+
+.page{
+  text-align: center;
+  padding-top: 50px;
+  .pagination{
+    float: none;
+    display: inline-block;
+  }
+}
+
+.resume-class{
+  font-size: 14px;
+  background-color: white;
+  width: 1190px;
+  margin: 10px auto;
+  ul{
+    padding: 10px 10px 50px;
+    li{
+        vertical-align: top;
+        width: 1150px;
+        display: inline-block;
+        *display: inline;
+        *zoom: 1;
+
+      h4{
+        width: 100%;
+        line-height: 40px;
+        height: 40px;
+        text-align: center;
+        border-bottom: 1px solid #eee;
+        color: #fa0064;
+      }
+      div{
+        width: 1130px;
+        padding: 5px 20px;
+        a{
+          width: 180px;
+          line-height: 30px;
+          display: inline-block;
+          *display: inline;
+          *zoom: 1;
+          color: #1464f0;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,149 @@
+#header{
+  text-align: center;
+  h3{
+    color: #aaa;
+    margin: 50px 0;
+  }
+}
+#nav{
+  width: 1190px;
+  margin: 0 auto;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 2px 2px #eaeaea;
+  background-color: #fa0064;
+  ul{
+    width: 1190px;
+    height: 40px;
+    margin: 0 auto;
+    li{
+      line-height: 40px;
+      float: left;
+      padding: 0 30px;
+      font-size: 16px;
+      cursor: pointer;
+      &.active{
+        background-color: #e01a69;
+      }
+      &.to-revices{
+        float: right;
+        font-size: 13px;
+      }
+      a{
+        color: #f0f0f0;
+        &:hover{
+          color: #fff!important;
+        }
+      }
+    }
+  }
+}
+
+#content{
+  width: 1190px;
+  min-height: 600px;
+  margin: 20px auto;
+  .side{
+    width: 280px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    .company-info{
+      .panel{
+        border: 1px solid #fa0064;
+        .panel-header{
+          height: 40px;
+          background-color: #fa0064;
+          padding: 0 10px;
+
+          h3{
+            font-size: 16px;
+            font-weight: normal;
+            line-height: 40px;
+            margin: 0;
+            color: #fff;
+          }
+        }
+        .panel-body{
+          padding: 0 10px;
+          li{
+            padding: 15px 0;
+            border-top: 1px dashed #ccc;
+            &:first-child{
+              border-top: none;
+            }
+            .title{
+              width: 80px;
+              font-weight: bold;
+              display: inline-block;
+              color: #333;
+              *display: inline;
+              *zoom: 1;
+            }
+            span{
+              display: inline-block;
+              width: 165px;
+              vertical-align: top;
+              color: #777;
+              word-wrap: break-word;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .content{
+    width: 880px;
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 25px;
+    *display: inline;
+    *zoom: 1;
+    .panel {
+      border: 1px solid #fa0064;
+      margin-bottom: 20px;
+      .panel-header {
+        height: 40px;
+        background-color: #fa0064;
+        padding: 0 10px;
+
+        h3 {
+          font-size: 16px;
+          font-weight: normal;
+          line-height: 40px;
+          margin: 0;
+          color: #fff;
+          display: inline;
+        }
+        a{
+          float: right;
+          color: #fff;
+          line-height: 40px;
+          padding-right: 15px;
+          &:hover{
+            color: #fff!important;
+          }
+        }
+      }
+      .panel-body {
+        padding: 20px 10px;
+        p{
+          text-indent: 28px;
+          line-height: 30px;
+          color: #777;
+          margin: 0;
+        }
+        table{
+          tr{
+            td{
+              text-align: center;
+            }
+            th{
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+}

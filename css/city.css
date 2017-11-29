@@ -1,0 +1,60 @@
+.city {
+  width: 1190px;
+  margin: 10px auto;
+  font-size: 14px; }
+  .city .hot-city {
+    margin: 10px 0; }
+    .city .hot-city span {
+      color: #666;
+      padding-right: 30px; }
+      .city .hot-city span a {
+        color: #666; }
+    .city .hot-city .first {
+      color: #fa0064;
+      font-weight: bold; }
+  .city table {
+    margin: 0 0 -1px 0;
+    border-radius: 0;
+    table-layout: fixed; }
+    .city table:first-child {
+      border-top: 1px solid #dddddd; }
+      .city table:first-child td {
+        border-top: 1px solid #dddddd; }
+    .city table:hover .first .td01 {
+      background-color: #fa0064;
+      color: #fff; }
+    .city table tr:hover .td01 {
+      background-color: #fa0064;
+      color: #fff; }
+    .city table tr td {
+      padding: 12px;
+      border-top: 0;
+      width: 1057px; }
+      .city table tr td a {
+        padding: 0 10px;
+        color: #555;
+        font-size: 13px;
+        line-height: 25px;
+        display: inline-block;
+        *display: inline;
+        *zoom: 1; }
+      .city table tr td p {
+        margin: 0; }
+    .city table tr .td01 {
+      width: 22px;
+      font-size: 18px;
+      color: #999;
+      font-weight: bold;
+      text-align: center;
+      vertical-align: inherit;
+      background-color: #f5f5f5; }
+    .city table tr .td02 {
+      width: 60px;
+      font-size: 16px;
+      text-align: center;
+      vertical-align: inherit; }
+      .city table tr .td02 span {
+        display: inline-block;
+        width: 60px; }
+
+/*# sourceMappingURL=city.css.map */

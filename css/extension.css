@@ -1,0 +1,230 @@
+body {
+  background-color: #eeeeee; }
+
+.user {
+  width: 1190px;
+  margin: 20px auto;
+  font-size: 14px;
+  min-height: 800px;
+  position: relative; }
+  .user .header-top {
+    padding: 20px 50px;
+    height: 60px;
+    background: #fff; }
+    .user .header-top ul li {
+      width: 10%;
+      float: left;
+      text-align: center; }
+      .user .header-top ul li.active a {
+        color: #fa0064; }
+      .user .header-top ul li h4 {
+        line-height: 38px;
+        font-size: 16px; }
+        .user .header-top ul li h4 i {
+          vertical-align: top; }
+  .user .content {
+    width: 1190px;
+    margin: 20px auto;
+    position: relative; }
+    .user .content .right {
+      width: 100%;
+      display: inline-block; }
+      .user .content .right .header {
+        background: #ffffff;
+        height: 40px;
+        padding: 0; }
+        .user .content .right .header ul {
+          height: 39px;
+          border-bottom: 1px solid #ccc; }
+          .user .content .right .header ul li {
+            line-height: 40px;
+            color: #666;
+            font-size: 16px;
+            display: inline-block;
+            *display: inline;
+            *zoom: 1;
+            padding: 0 20px;
+            cursor: pointer; }
+            .user .content .right .header ul li:hover, .user .content .right .header ul li.active {
+              height: 38px;
+              border-bottom: 3px solid #fa0064;
+              color: #fa0064;
+              font-weight: bold; }
+      .user .content .right .info {
+        width: 100%;
+        margin-top: 10px;
+        background-color: #ffffff;
+        min-height: 300px; }
+        .user .content .right .info ul li {
+          text-align: center;
+          padding: 30px 0; }
+          .user .content .right .info ul li img {
+            padding: 50px;
+            width: 900px;
+            display: block;
+            margin: 0 auto; }
+          .user .content .right .info ul li h3 {
+            font-size: 27px;
+            padding: 10px 40px;
+            border-bottom: 5px solid #fa0064;
+            border-top: 5px solid #fa0064;
+            color: #fa0064;
+            margin: 50px 0 0;
+            display: inline-block;
+            *display: inline;
+            *zoom: 1; }
+            .user .content .right .info ul li h3.open-way {
+              color: #444;
+              border: none;
+              padding: 0; }
+          .user .content .right .info ul li .ad-title {
+            border-bottom: 5px solid #666;
+            border-top: 5px solid #666;
+            color: #666; }
+          .user .content .right .info ul li p {
+            margin: 20px;
+            font-size: 16px;
+            line-height: 30px;
+            color: #666;
+            font-weight: bold; }
+          .user .content .right .info ul li .pay-open {
+            margin: 50px 0; }
+            .user .content .right .info ul li .pay-open .step-box02 {
+              width: 60%;
+              height: 160px; }
+              .user .content .right .info ul li .pay-open .step-box02 .step .round {
+                width: 60px;
+                height: 60px;
+                line-height: 60px;
+                text-align: center;
+                font-size: 20px;
+                border-radius: 30px;
+                color: #fff;
+                font-weight: bold;
+                background-color: #fa0064;
+                margin: 0 auto;
+                position: relative;
+                z-index: 10; }
+              .user .content .right .info ul li .pay-open .step-box02 .step .line-center {
+                width: 100%;
+                height: 6px;
+                background-color: #fa0064;
+                position: absolute;
+                top: 28px; }
+              .user .content .right .info ul li .pay-open .step-box02 .step.active {
+                color: #888; }
+            .user .content .right .info ul li .pay-open .describe {
+              line-height: 35px;
+              margin-top: 20px;
+              font-size: 18px; }
+          .user .content .right .info ul li .to-open {
+            margin: 40px auto;
+            padding: 10px 30px;
+            background-color: #fa0064;
+            width: 80px;
+            color: white;
+            display: block;
+            cursor: pointer; }
+            .user .content .right .info ul li .to-open:hover {
+              color: white !important;
+              opacity: 0.8; }
+          .user .content .right .info ul li .price {
+            padding: 30px 0; }
+            .user .content .right .info ul li .price select {
+              border-radius: 0;
+              display: block;
+              margin: -1px auto 0;
+              width: 300px;
+              height: 40px; }
+            .user .content .right .info ul li .price .table {
+              width: 500px;
+              margin: 20px auto 0;
+              display: none; }
+              .user .content .right .info ul li .price .table td {
+                text-align: center; }
+            .user .content .right .info ul li .price button {
+              margin: 40px 0;
+              padding: 10px 30px;
+              background-color: #fa0064;
+              color: white;
+              display: none;
+              border: none;
+              *display: inline;
+              *zoom: 1; }
+              .user .content .right .info ul li .price button:hover {
+                color: white !important;
+                opacity: 0.8; }
+      .user .content .right .diamond ul li h3 {
+        border-bottom: 5px solid #a01fcc;
+        border-top: 5px solid #a01fcc;
+        color: #a01fcc; }
+      .user .content .right .jin ul li h3 {
+        border-bottom: 5px solid #bc9b30;
+        border-top: 5px solid #bc9b30;
+        color: #bc9b30; }
+      .user .content .right .yin ul li h3 {
+        border-bottom: 5px solid #969aa2;
+        border-top: 5px solid #969aa2;
+        color: #969aa2; }
+      .user .content .right .tong ul li h3 {
+        border-bottom: 5px solid #c28146;
+        border-top: 5px solid #c28146;
+        color: #c28146; }
+      .user .content .right .hot ul li h3 {
+        border-bottom: 5px solid #f04b01;
+        border-top: 5px solid #f04b01;
+        color: #f04b01; }
+      .user .content .right .discount ul li h3 {
+        border-bottom: 5px solid #eb2fff;
+        border-top: 5px solid #eb2fff;
+        color: #eb2fff; }
+      .user .content .right .new ul li h3 {
+        border-bottom: 5px solid #ec1a31;
+        border-top: 5px solid #ec1a31;
+        color: #ec1a31; }
+  .user .modal-body {
+    text-align: center; }
+    .user .modal-body table tr {
+      font-size: 12px; }
+    .user .modal-body .pagination {
+      text-align: center;
+      float: none;
+      display: inline-block; }
+    .user .modal-body button {
+      width: 150px;
+      height: 25px;
+      line-height: 25px;
+      color: #fff;
+      text-align: center;
+      background-color: #fa0064;
+      border-radius: 3px;
+      border: none;
+      display: block;
+      margin: 0 auto; }
+      .user .modal-body button:hover {
+        color: #ffffff !important;
+        opacity: 0.7; }
+
+.vip .header-top {
+  padding: 20px;
+  height: 100px; }
+  .vip .header-top ul li {
+    width: 175px;
+    padding: 10px 0;
+    margin: 5px 25px; }
+    .vip .header-top ul li h4 {
+      font-size: 16px;
+      height: 18px;
+      line-height: 22px;
+      margin: 0 0 0 10px;
+      vertical-align: top;
+      display: inline-block;
+      *display: inline;
+      *zoom: 1; }
+    .vip .header-top ul li.active {
+      background-color: #fa0064;
+      border-radius: 3px; }
+      .vip .header-top ul li.active h4 {
+        color: white; }
+
+/*# sourceMappingURL=extension.css.map */

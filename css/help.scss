@@ -1,0 +1,188 @@
+body{
+  background-color: #eeeeee;
+}
+.user{
+  width: 1190px;
+  margin: 20px auto;
+  font-size: 14px;
+  min-height: 800px;
+  position: relative;
+
+  .header-top{
+    padding: 20px 50px;
+    height: 60px;
+    background: #fff;
+    ul{
+      li{
+        width: 25%;
+        float: left;
+        text-align: center;
+        h4{
+          line-height: 38px;
+          i{
+            vertical-align: top;
+          }
+        }
+        a:hover{
+          color: #999!important;
+        }
+      }
+    }
+
+  }
+
+  .content{
+    width: 1190px;
+    margin: 20px 0;
+    position: relative;
+    .left{
+      width: 200px;
+      background-color: #fff;
+      margin-right: 20px;
+      padding: 20px 0;
+      display: inline-block;
+      float: left;
+      .item-group{
+        h4{
+          border-bottom: 1px solid #ccc;
+          padding-bottom: 10px;
+          margin: 10px 20px;
+        }
+        ul{
+          li{
+            cursor: pointer;
+            &.active{
+              a{
+                color: #fa0064;
+                font-weight: bold;
+                background-color: #f8f8f8;
+              }
+            }
+            div{
+              display: none;
+              zoom: 1;
+              a{
+                width: 150px;
+                padding: 0 0 0 50px;
+              }
+            }
+            a{
+              width: 160px;
+              padding: 0 20px;
+              display: block;
+              line-height: 35px;
+              margin: 10px 0;
+              font-size: 14px;
+              color: #666;
+
+              &.active{
+                background-color: #f8f8f8;
+                color: orange;
+                .icon{
+                  transform: rotate(-180deg);
+                }
+              }
+              &:hover{
+                background-color: #fa0064;
+                color: #fff !important;
+              }
+              .icon{
+                width: 14px;
+                height: 8px;
+                background: url("../img/icon.png") no-repeat 0px -68px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .right{
+      width: 970px;
+      display: inline-block;
+      .header{
+        background: #ffffff;
+        height: 40px;
+        padding: 0;
+        ul{
+          height: 39px;
+          border-bottom: 1px solid #ccc;
+          li{
+            line-height: 40px;
+            color: #666;
+            font-size: 16px;
+            display: inline-block;
+            *display: inline;
+            *zoom: 1;
+            padding: 0 20px;
+            cursor: pointer;
+            &:hover, &.active{
+              height: 38px;
+              border-bottom: 3px solid #fa0064;
+              color: #fa0064;
+              font-weight: bold;
+            }
+          }
+        }
+      }
+
+      .info{
+        width: 100%;
+        margin-top: 10px;
+        background-color: #ffffff;
+        min-height: 300px;
+        ul{
+          li{
+            padding: 20px;
+            .superWarning{
+              margin-right: 10px;
+            }
+            .question{
+              background-color: #eee;
+              padding: 10px 20px;
+              div{
+                width: 40%;
+                display: inline-block;
+                *display: inline;
+                *zoom: 1;
+                h5{
+                  margin: 5px 0;
+                }
+              }
+            }
+            .answer{
+              div{
+                margin: 30px 0;
+                border-bottom: 1px dashed #ddd;
+                h4{
+                  color: #666;
+                  font-size: 16px;
+                }
+                pre{
+                  font-size: 12px;
+                  line-height: 30px;
+                  background-color: #ffffff;
+                  border: none;
+                  padding: 0 35px;
+                  font-family: "Microsoft YaHei";
+                  a{
+                    color: #fa0064;
+                  }
+                }
+                img{
+                  margin: 10px 0 20px 35px;
+                  max-width: 860px;
+                }
+              }
+            }
+          }
+        }
+
+      }
+
+
+    }
+
+  }
+
+}

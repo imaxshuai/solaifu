@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>搜来福首页</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-responsive.css">
+    <link rel="stylesheet" href="css/bootstrap-responsive.css">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="css/alert.css">
+    <link rel="stylesheet" href="css/user.css">
+    <link rel="stylesheet" href="css/recharge.css">
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/alert.js"></script>
+    <script src="js/load.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/mainAlert.js"></script>
+</head>
+<body>
+
+<div id="PUB_HEADER"></div>
+<div id="SEARCH"></div>
+
+<!---------------用户中心头部资料界面--------------->
+<div class="user">
+
+    <div id="USERINFO_TOP"></div>
+
+    <div class="content">
+
+        <div class="left">
+            <div id="USER_LIST"></div>
+        </div>
+
+        <div class="right">
+            <div class="header">
+                <ul>
+                    <li class="active">账户总览</li>
+                    <li>资源转移</li>
+                    <!--<li>资源回收</li>-->
+                    <!--<li>转移记录</li>-->
+                    <!--<a href="./vip-add-child.html">+添加新的子账户</a>-->
+                </ul>
+            </div>
+            <div class="info vip-mother-child">
+
+                <ul>
+
+                    <li>
+                        <table class="table table-hover table-resume table-bordered">
+                            <tr>
+                                <td>用户名</td>
+                                <td>信息发布数</td>
+                                <td>刷新数</td>
+                                <td>简历下载数</td>
+                                <td>职位发布数</td>
+                                <td>福币余额</td>
+                                <td>专有余额</td>
+                                <td>操作</td>
+                            </tr>
+                            <tr>
+                                <td>母账户</td>
+                                <td>
+                                    <div>剩 <span class="superWarning">500</span></div>
+                                    <div>总 <span class="all-money">1000</span></div>
+                                </td>
+                                <td>
+                                    <div>剩 <span class="superWarning">500</span></div>
+                                    <div>总 <span class="all-money">1000</span></div>
+                                </td>
+                                <td>
+                                    <div>剩 <span class="superWarning">500</span></div>
+                                    <div>总 <span class="all-money">1000</span></div>
+                                </td>
+                                <td>
+                                    <div>剩 <span class="superWarning">500</span></div>
+                                    <div>总 <span class="all-money">1000</span></div>
+                                </td>
+                                <td>
+                                    <div>剩 <span class="superWarning">500</span></div>
+                                    <div>总 <span class="all-money">1000</span></div>
+                                </td>
+                                <td>
+                                    <div>剩 <span class="superWarning">500</span></div>
+                                    <div>总 <span class="all-money">1000</span></div>
+                                </td>
+                                <td><a href="./vip-add-child.html">添加子账户</a></td>
+                        </tr>
+                            <tr>
+                                <td>T1</td>
+                                <td>
+                                    <div>剩 <span class="superWarning">100</span></div>
+                                    <div>总 <span class="all-money">200</span></div>
+                                </td>
+                                <td>
+                                    <div>剩 <span class="superWarning">100</span></div>
+                                    <div>总 <span class="all-money">200</span></div>
+                                </td>
+                                <td>
+                                    <div>剩 <span class="superWarning">100</span></div>
+                                    <div>总 <span class="all-money">200</span></div>
+                                </td>
+                                <td>
+                                    <div>剩 <span class="superWarning">100</span></div>
+                                    <div>总 <span class="all-money">200</span></div>
+                                </td>
+                                <td>
+                                    <div>剩 <span class="superWarning">100</span></div>
+                                    <div>总 <span class="all-money">200</span></div>
+                                </td>
+                                <td>
+                                    <div>剩 <span class="superWarning">100</span></div>
+                                    <div>总 <span class="all-money">200</span></div>
+                                </td>
+                                <td><a href="javascript:;" onclick="alertChoose('一旦删除，无法复原！<br/>请确认是否要删除当前子账户')">删除该子账户</a></td>
+                            </tr>
+                            <tr>
+                                <td>T2</td>
+                                <td>
+                                    <div>剩 <span class="superWarning">130</span></div>
+                                    <div>总 <span class="all-money">300</span></div>
+                                </td>
+                                <td>
+                                    <div>剩 <span class="superWarning">130</span></div>
+                                    <div>总 <span class="all-money">300</span></div>
+                                </td>
+                                <td>
+                                    <div>剩 <span class="superWarning">130</span></div>
+                                    <div>总 <span class="all-money">300</span></div>
+                                </td>
+                                <td>
+                                    <div>剩 <span class="superWarning">130</span></div>
+                                    <div>总 <span class="all-money">300</span></div>
+                                </td>
+                                <td>
+                                    <div>剩 <span class="superWarning">130</span></div>
+                                    <div>总 <span class="all-money">300</span></div>
+                                </td>
+                                <td>
+                                    <div>剩 <span class="superWarning">130</span></div>
+                                    <div>总 <span class="all-money">300</span></div>
+                                </td>
+                                <td><a href="javascript:;" onclick="alertChoose('一旦删除，无法复原！<br/>请确认是否要删除当前子账户')">删除该子账户</a></td>
+                            </tr>
+                            <tr>
+                                <td>T3</td>
+                                <td>
+                                    <div>剩 <span class="superWarning">0</span></div>
+                                    <div>总 <span class="all-money">100</span></div>
+                                </td>
+                                <td>
+                                    <div>剩 <span class="superWarning">0</span></div>
+                                    <div>总 <span class="all-money">100</span></div>
+                                </td>
+                                <td>
+                                    <div>剩 <span class="superWarning">0</span></div>
+                                    <div>总 <span class="all-money">100</span></div>
+                                </td>
+                                <td>
+                                    <div>剩 <span class="superWarning">0</span></div>
+                                    <div>总 <span class="all-money">100</span></div>
+                                </td>
+                                <td>
+                                    <div>剩 <span class="superWarning">0</span></div>
+                                    <div>总 <span class="all-money">100</span></div>
+                                </td>
+                                <td>
+                                    <div>剩 <span class="superWarning">0</span></div>
+                                    <div>总 <span class="all-money">100</span></div>
+                                </td>
+                                <td><a href="javascript:;" onclick="alertChoose('一旦删除，无法复原！<br/>请确认是否要删除当前子账户')">删除该子账户</a></td>
+                            </tr>
+                            <tr>
+                                <td>T4</td>
+                                <td>
+                                    <div>剩 <span class="superWarning">30</span></div>
+                                    <div>总 <span class="all-money">200</span></div>
+                                </td>
+                                <td>
+                                    <div>剩 <span class="superWarning">30</span></div>
+                                    <div>总 <span class="all-money">200</span></div>
+                                </td>
+                                <td>
+                                    <div>剩 <span class="superWarning">30</span></div>
+                                    <div>总 <span class="all-money">200</span></div>
+                                </td>
+                                <td>
+                                    <div>剩 <span class="superWarning">30</span></div>
+                                    <div>总 <span class="all-money">200</span></div>
+                                </td>
+                                <td>
+                                    <div>剩 <span class="superWarning">30</span></div>
+                                    <div>总 <span class="all-money">200</span></div>
+                                </td>
+                                <td>
+                                    <div>剩 <span class="superWarning">30</span></div>
+                                    <div>总 <span class="all-money">200</span></div>
+                                </td>
+                                <td><a href="javascript:;" onclick="alertChoose('一旦删除，无法复原！<br/>请确认是否要删除当前子账户')">删除该子账户</a></td>
+                            </tr>
+
+                        </table>
+                    </li>
+
+                    <li>
+                        <h4>母账户转移至子账户</h4>
+                        <form>
+                            <div class="group">
+                                <span>接收子账户 :</span>
+                                <select>
+                                    <option disabled selected >--请选择子账户--</option>
+                                    <option value="T1">T1</option>
+                                    <option value="T2">T2</option>
+                                    <option value="T3">T3</option>
+                                    <option value="T4">T4</option>
+                                </select>
+                            </div>
+                            <div class="group">
+                                <div>
+                                    <span>信息发布数 :</span>
+                                    <input type="number" min="0" />
+                                </div>
+                                <div>
+                                    <span>信息刷新数 :</span>
+                                    <input type="number" min="0" />
+                                </div>
+                                <div>
+                                    <span>简历下载数 :</span>
+                                    <input type="number" min="0" />
+                                </div>
+                                <div>
+                                    <span>职位发布数 :</span>
+                                    <input type="number" min="0.00" />
+                                </div>
+                                <!--<div class="long">
+                                    <span>自母账户</span>
+                                    <select name="balance">
+                                        <option value="福币">福币账户</option>
+                                        <option value="余额">专有账户</option>
+                                    </select>
+                                    <span class="and">转移金额</span>
+                                    <input type="number" min="0.00" step="0.01" >
+                                </div>-->
+                                <div>
+                                    <span>福币账户金额 :</span>
+                                    <input type="number" min="0.00" step="0.01" />
+                                </div>
+                                <div>
+                                    <span>专有账户金额 :</span>
+                                    <input type="number" min="0.00" step="0.01"  />
+                                </div>
+                            </div>
+                            <button type="submit">确认转移</button>
+                        </form>
+                    </li>
+                    <li>
+                        <h4>母账户回收子账户<small>（回收资源，不会删除该子账户，未回收的资源仍然保留）</small></h4>
+                        <form>
+                            <div class="group">
+                                <span>被回收子账户 :</span>
+                                <select>
+                                    <option disabled selected >--请选择子账户--</option>
+                                    <option value="T1">T1</option>
+                                    <option value="T2">T2</option>
+                                    <option value="T3">T3</option>
+                                    <option value="T4">T4</option>
+                                </select>
+                            </div>
+                            <div class="group">
+                                <div>
+                                    <span>信息发布数 :</span>
+                                    <input type="number" min="0" />
+                                </div>
+                                <div>
+                                    <span>信息刷新数 :</span>
+                                    <input type="number" min="0" />
+                                </div>
+                                <div>
+                                    <span>简历下载数 :</span>
+                                    <input type="number" min="0" />
+                                </div>
+                                <div>
+                                    <span>职位发布数 :</span>
+                                    <input type="number" min="0" />
+                                </div>
+                                <div>
+                                    <span>福币账户金额 :</span>
+                                    <input type="number" min="0.00" step="0.01" />
+                                </div>
+                                <div>
+                                    <span>专有账户金额 :</span>
+                                    <input type="number" min="0.00" step="0.01"  />
+                                </div>
+                            </div>
+                            <button type="submit">确认回收</button>
+                        </form>
+                    </li>
+                    <!--<li>
+                        <table class="table table-hover table-resume table-bordered">
+                            <tr>
+                                <td>账户名</td>
+                                <td>转移的资源</td>
+                                <td>回收的资源</td>
+                                <td>转移时间</td>
+                            </tr>
+                            <tr>
+                                <td>T3</td>
+                                <td class="td-long">
+                                    发布信息数<span class="superWarning">50</span>条,
+                                    刷新数<span class="superWarning">100</span>条,
+                                    简历下载数<span class="superWarning">20</span>条
+                                </td>
+                                <td  class="td-long">
+                                    发布信息数<span class="superWarning">50</span>条,
+                                    刷新数<span class="superWarning">100</span>条,
+                                    简历下载数<span class="superWarning">20</span>条
+                                </td>
+                                <td>2017-12-30</td>
+                            </tr>
+                            <tr>
+                                <td>T3</td>
+                                <td class="td-long">
+                                    发布信息数<span class="superWarning">50</span>条,
+                                    刷新数<span class="superWarning">100</span>条,
+                                    简历下载数<span class="superWarning">20</span>条
+                                </td>
+                                <td  class="td-long">
+                                    发布信息数<span class="superWarning">50</span>条,
+                                    刷新数<span class="superWarning">100</span>条,
+                                    简历下载数<span class="superWarning">20</span>条
+                                </td>
+                                <td>2017-12-30</td>
+                            </tr>
+                            <tr>
+                                <td>T3</td>
+                                <td class="td-long">
+                                    发布信息数<span class="superWarning">50</span>条,
+                                    刷新数<span class="superWarning">100</span>条,
+                                    简历下载数<span class="superWarning">20</span>条
+                                </td>
+                                <td  class="td-long">
+                                    发布信息数<span class="superWarning">50</span>条,
+                                    刷新数<span class="superWarning">100</span>条,
+                                    简历下载数<span class="superWarning">20</span>条
+                                </td>
+                                <td>2017-12-30</td>
+                            </tr>
+                            <tr>
+                                <td>T3</td>
+                                <td class="td-long">
+                                    发布信息数<span class="superWarning">50</span>条,
+                                    刷新数<span class="superWarning">100</span>条,
+                                    简历下载数<span class="superWarning">20</span>条
+                                </td>
+                                <td  class="td-long">
+                                    发布信息数<span class="superWarning">50</span>条,
+                                    刷新数<span class="superWarning">100</span>条,
+                                    简历下载数<span class="superWarning">20</span>条
+                                </td>
+                                <td>2017-12-30</td>
+                            </tr>
+
+                        </table>
+                        <a href="#" style="float: right;margin-right: 20px;">清空记录</a>
+                    </li>-->
+
+                </ul>
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<!---------------首页页脚部分--------------->
+<div id="PUB_FOOTER"></div>
+
+
+</body>
+</html>

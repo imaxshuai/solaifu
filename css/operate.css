@@ -1,0 +1,25 @@
+#operate {
+  width: 800px;
+  height: 380px; }
+  #operate h4 {
+    color: #fa0064;
+    margin: 0; }
+  #operate .top, #operate .refresh {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 10px; }
+  #operate .choose {
+    width: 70px;
+    height: 30px;
+    border: 1px solid #ccc;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1; }
+    #operate .choose.active {
+      background: url("../img/active.png") no-repeat;
+      border: 1px solid #fa0064; }
+
+/*# sourceMappingURL=operate.css.map */

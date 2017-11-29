@@ -1,0 +1,214 @@
+body{
+  background-color: #eeeff1;
+}
+.resume-info{
+  width: 1000px;
+  margin: 10px auto 30px;
+  border: 1px solid #eee;
+  font-size: 16px;
+  color: #666;
+  background-color: #ffffff;
+  position: relative;
+  .download{
+    background-color: #fa0064;
+    padding: 8px 20px;
+    border-radius: 3px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    color: #fff;
+    &:hover{
+      opacity: 0.7;
+    }
+  }
+  h2,h3,h4{
+    margin: 0;
+    display: inline-block;
+    vertical-align: top;
+    *display: inline;
+    *zoom: 1;
+  }
+  .item{
+    width: 800px;
+    min-height: 100px;
+    padding: 20px 100px;
+    border: 1px solid #fafafa;
+    h3{
+      display: block;
+      font-size: 20px;
+      line-height: 25px;
+      color: #333;
+      border-left: 5px solid #fa0064;
+      text-indent: 10px;
+    }
+    p{
+      margin: 20px 0;
+      line-height: 30px;
+    }
+    .header{
+      width: 100%;
+      height: 100px;
+      img{
+        width: 100px;
+        height: 100px;
+        margin-right: 20px;
+        border-radius: 60px;
+        float: left;
+      }
+      .name{
+        display: inline-block;
+        *display: inline;
+        *zoom: 1;
+        margin-top: 10px;
+        color: #666;
+        h2{
+          font-weight: normal;
+          color: #333;
+          margin-right: 30px;
+        }
+        h4{
+          vertical-align: bottom;
+          font-weight: normal;
+        }
+      }
+      p{
+        color: #666;
+        margin-top: 15px;
+        span{
+          padding: 0 10px;
+          .icon-tel{
+            width: 12px;
+            height: 20px;
+            background: url("../img/icon.png") no-repeat -23px -176px;
+            margin-right: 5px;
+          }
+          &.see{
+            background-color: #fa0064;
+            padding: 8px 20px;
+            border-radius: 3px;
+            cursor: pointer;
+            color: #fff;
+            &:hover{
+              opacity: 0.7;
+            }
+          }
+        }
+      }
+    }
+    .content{
+      width: 100%;
+      padding: 20px 0 0;
+      height: 100px;
+      div{
+        display: inline-block;
+        *display: inline;
+        *zoom: 1;
+        width: 390px;
+        height: 40px;
+        &.long{
+          width: 600px;
+        }
+        span{
+          color: #333;
+        }
+        span:first-child{
+          color: #666;
+          margin-right: 30px;
+        }
+      }
+    }
+  }
+}
+
+.buy-resume{
+  form{
+    margin: 0;
+    label{
+      width: 80px;
+      padding: 0 15px;
+      position: relative;
+      float: left;
+      text-align: center;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      margin-left: 17px;
+      h4{
+        color: #fa0064;
+      }
+      h5{
+        margin: 5px 0;
+        color: #aaa;
+      }
+      input{
+        display: none;
+      }
+      .icon-active{
+        width: 16px;
+        height: 17px;
+        display: none;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background: url("../img/icon.png") -131px -313px;
+      }
+    }
+    .active{
+      border-color: #fa0064;
+      .icon-active{
+        display: block;
+      }
+    }
+    .pay-money{
+      clear: both;
+      padding: 10px 17px;
+      input{
+        padding: 5px 20px;
+        background-color: #fa0064;
+        color: white;
+        border: none;
+        border-radius: 3px;
+        margin-left: 200px;
+        &:hover{
+          opacity: 0.7;
+        }
+      }
+    }
+
+    .all-price{
+      clear: both;
+      line-height: 34px;
+      margin: 10px 0;
+      height: 38px;
+      p{
+        font-size: 14px;
+        color: #fa0064;
+        float: left;
+        margin-left: 15px;
+      }
+      .superWarning{
+        margin-left: 20px;
+        font-size: 25px;
+        margin-right: 10px;
+      }
+      .balance{
+        font-size: 14px;
+        color: #fa0064;
+        float: left;
+        p{
+          margin: 0;
+          padding-left: 10px;
+        }
+        span{
+          color: #aaa;
+          padding-left: 10px;
+          font-size: 12px;
+        }
+        b{
+          font-size: 16px;
+        }
+      }
+    }
+
+  }
+}

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>搜来福首页</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css">
+	<link rel="stylesheet" href="css/public.css">
+	<link rel="stylesheet" href="css/pay.css">
+	<script src="js/jquery-1.8.3.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/load.js"></script>
+	<script src="js/time.js"></script>
+	<script src="js/moment-with-locales.js"></script>
+	<script src="js/bootstrap-datetimepicker.min.js"></script>
+	<script src="js/bootstrap-datetimepicker.zh-CN.js"></script>
+</head>
+<body>
+
+<div id="PUB_HEADER"></div>
+
+<div class="nav-help" style="width: 1000px;">
+	<div>
+		<a href="./index.html">搜来福</a>
+		<i class="icon icon-step-small"></i>
+		<a href="./index.html">南京</a>
+		<i class="icon icon-step-small"></i>
+		<a href="./extension-refresh-time.html">预约刷新</a>
+	</div>
+</div>
+
+<div class="pay pay-top">
+		<p><i class="icon icon-system"></i>预约刷新，即定时刷新，解放您的双手，不用每时每刻去想我的消息有没有刷新</br></p>
+
+	<form action="./pay-zfb.html">
+		<div class="choose-box pay-way">
+			<p class="name">预约日期 :</p>
+			<div class="radio radio-pay">
+
+				<div class='input-group date datetimepicker-date date-input'>
+					<input type='text' class="nowdate" />
+					<span class="input-group-addon" style="padding-top: 35px;">
+          				<span class="glyphicon glyphicon-calendar"></span>
+        			</span>
+				</div>
+				到
+				<div class='input-group date datetimepicker-date date-input'>
+					<input type='text' class="nowdate" />
+					<span class="input-group-addon" style="padding-top: 35px;">
+          				<span class="glyphicon glyphicon-calendar"></span>
+        			</span>
+				</div>
+
+			</div>
+		</div>
+		<!--<div class="choose-box pay-way">
+			<p class="name">间隔时长 :</p>
+			<div class="radio radio-pay">
+				<label>
+					<input type="radio" name="secound" value="1" />
+					<h5>每天</h5>
+					<i class="icon icon-active"></i>
+				</label>
+				<label>
+					<input type="radio" name="secound" value="1" />
+					<h5>每周一</h5>
+					<i class="icon icon-active"></i>
+				</label>
+				<label>
+					<input type="radio" name="secound" value="1" />
+					<h5>每周二</h5>
+					<i class="icon icon-active"></i>
+				</label>
+				<label>
+					<input type="radio" name="secound" value="1" />
+					<h5>每周三</h5>
+					<i class="icon icon-active"></i>
+				</label>
+				<label>
+					<input type="radio" name="secound" value="1" />
+					<h5>每周四</h5>
+					<i class="icon icon-active"></i>
+				</label>
+				<label>
+					<input type="radio" name="secound" value="1" />
+					<h5>每周五</h5>
+					<i class="icon icon-active"></i>
+				</label>
+				<label>
+					<input type="radio" name="secound" value="1" />
+					<h5>每周六</h5>
+					<i class="icon icon-active"></i>
+				</label>
+				<label>
+					<input type="radio" name="secound" value="1" />
+					<h5>每周日</h5>
+					<i class="icon icon-active"></i>
+				</label>
+
+			</div>
+		</div>-->
+
+		<div class="choose-box pay-way">
+			<p class="name">刷新时间 :</p>
+			<div class="radio refresh-time">
+				<div class="delete-box">
+					<div class='input-group date datetimepicker-time date-input'  data-date="" data-date-format="hh:ii" data-link-field="dtp_input3" data-link-format="hh:ii">
+						<input type='text' class="nowtime" />
+						<span class="input-group-addon" style="padding-top: 35px;">
+          					<span class="glyphicon glyphicon-calendar"></span>
+        				</span>
+					</div>
+					<span class="delete">删除</span>
+				</div>
+				<div class="delete-box">
+					<div class='input-group date datetimepicker-time date-input'  data-date="" data-date-format="hh:ii" data-link-field="dtp_input3" data-link-format="hh:ii">
+						<input type='text' class="nowtime" />
+						<span class="input-group-addon" style="padding-top: 35px;">
+          					<span class="glyphicon glyphicon-calendar"></span>
+        				</span>
+					</div>
+					<span class="delete">删除</span>
+				</div>
+				<div class="delete-box">
+					<div class='input-group date datetimepicker-time date-input'  data-date="" data-date-format="hh:ii" data-link-field="dtp_input3" data-link-format="hh:ii">
+						<input type='text' class="nowtime" />
+						<span class="input-group-addon" style="padding-top: 35px;">
+          					<span class="glyphicon glyphicon-calendar"></span>
+        				</span>
+					</div>
+					<span class="delete">删除</span>
+				</div>
+				<div class="delete-box">
+					<div class='input-group date datetimepicker-time date-input'  data-date="" data-date-format="hh:ii" data-link-field="dtp_input3" data-link-format="hh:ii">
+						<input type='text' class="nowtime" />
+						<span class="input-group-addon" style="padding-top: 35px;">
+          					<span class="glyphicon glyphicon-calendar"></span>
+        				</span>
+					</div>
+					<span class="delete">删除</span>
+				</div>
+				<div class="delete-box">
+					<div class='input-group date datetimepicker-time date-input'  data-date="" data-date-format="hh:ii" data-link-field="dtp_input3" data-link-format="hh:ii">
+						<input type='text' class="nowtime" />
+						<span class="input-group-addon" style="padding-top: 35px;">
+          					<span class="glyphicon glyphicon-calendar"></span>
+        				</span>
+					</div>
+					<span class="delete">删除</span>
+				</div>
+				<div class="delete-box">
+					<div class='input-group date datetimepicker-time date-input'  data-date="" data-date-format="hh:ii" data-link-field="dtp_input3" data-link-format="hh:ii">
+						<input type='text' class="nowtime" />
+						<span class="input-group-addon" style="padding-top: 35px;">
+          					<span class="glyphicon glyphicon-calendar"></span>
+        				</span>
+					</div>
+					<span class="delete">删除</span>
+				</div>
+				<div class="delete-box">
+					<div class='input-group date datetimepicker-time date-input'  data-date="" data-date-format="hh:ii" data-link-field="dtp_input3" data-link-format="hh:ii">
+						<input type='text' class="nowtime" />
+						<span class="input-group-addon" style="padding-top: 35px;">
+          					<span class="glyphicon glyphicon-calendar"></span>
+        				</span>
+					</div>
+					<span class="delete">删除</span>
+				</div>
+				<div class="delete-box">
+					<div class='input-group date datetimepicker-time date-input'  data-date="" data-date-format="hh:ii" data-link-field="dtp_input3" data-link-format="hh:ii">
+						<input type='text' class="nowtime" />
+						<span class="input-group-addon" style="padding-top: 35px;">
+          					<span class="glyphicon glyphicon-calendar"></span>
+        				</span>
+					</div>
+					<span class="delete">删除</span>
+				</div>
+				<div class="delete-box">
+					<div class='input-group date datetimepicker-time date-input'  data-date="" data-date-format="hh:ii" data-link-field="dtp_input3" data-link-format="hh:ii">
+						<input type='text' class="nowtime" />
+						<span class="input-group-addon" style="padding-top: 35px;">
+          					<span class="glyphicon glyphicon-calendar"></span>
+        				</span>
+					</div>
+					<span class="delete">删除</span>
+				</div>
+				<div class="delete-box">
+					<div class='input-group date datetimepicker-time date-input'  data-date="" data-date-format="hh:ii" data-link-field="dtp_input3" data-link-format="hh:ii">
+						<input type='text' class="nowtime" />
+						<span class="input-group-addon" style="padding-top: 35px;">
+          					<span class="glyphicon glyphicon-calendar"></span>
+        				</span>
+					</div>
+					<span class="delete">删除</span>
+				</div>
+			</div>
+			<!--<p class="add">添加时间</p>-->
+		</div>
+
+		<div class="all-price">
+			<p class="name">需&nbsp;&nbsp;支&nbsp;付 :</p><span class="superWarning">0</span>元
+		</div>
+
+		<div class="all-price">
+			<p>账户余额：</p>
+			<div class="balance">
+				<p>福币余额 <b>1000</b> 元，专有余额 <b>300</b> 元</p>
+				<span>(余额支付，默认优先扣除福币。)</span>
+			</div>
+		</div>
+
+		<div class="choose-box pay-way">
+			<p class="name">支付方式 :</p>
+			<div class="radio radio-pay">
+				<label>
+					<input type="radio" name="payWay" value="2000" />
+					<h5>支付宝</h5>
+					<i class="icon icon-active"></i>
+				</label>
+				<label>
+					<input type="radio" name="payWay" value="2000" />
+					<h5>微信支付</h5>
+					<i class="icon icon-active"></i>
+				</label>
+				<label>
+					<input type="radio" name="payWay" value="2000" />
+					<h5>余额支付</h5>
+					<i class="icon icon-active"></i>
+				</label>
+			</div>
+		</div>
+
+		<div class="submit">
+			<input type="submit" value="确认支付">
+		</div>
+	</form>
+
+</div>
+
+
+</body>
+</html>

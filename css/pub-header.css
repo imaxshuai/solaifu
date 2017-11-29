@@ -1,0 +1,156 @@
+#PUB_HEADER {
+  min-width: 1190px;
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid #eee;
+  font-size: 12px; }
+  #PUB_HEADER .header-nav {
+    height: 60px;
+    width: 100%;
+    background-color: #fff; }
+    #PUB_HEADER .header-nav .container {
+      width: 1190px;
+      height: 60px;
+      margin: 0 auto;
+      position: relative;
+      z-index: 999; }
+      #PUB_HEADER .header-nav .container a {
+        color: #666;
+        line-height: 60px;
+        text-decoration: none; }
+      #PUB_HEADER .header-nav .container .nav-left {
+        float: left; }
+        #PUB_HEADER .header-nav .container .nav-left img {
+          margin-left: 10px; }
+          #PUB_HEADER .header-nav .container .nav-left img:first-child {
+            margin: 0;
+            width: 105px;
+            height: auto;
+            padding-right: 20px;
+            border-right: 1px solid #ddd; }
+      #PUB_HEADER .header-nav .container .nav-right {
+        position: absolute;
+        right: 0;
+        display: inline-block; }
+        #PUB_HEADER .header-nav .container .nav-right .nav {
+          float: left;
+          position: relative; }
+          #PUB_HEADER .header-nav .container .nav-right .nav:first-child a span {
+            border: none; }
+          #PUB_HEADER .header-nav .container .nav-right .nav a span {
+            padding: 0 10px;
+            border-left: 1px solid #ddd; }
+      #PUB_HEADER .header-nav .container .nav-more {
+        margin-left: 1px;
+        position: relative;
+        z-index: 20; }
+        #PUB_HEADER .header-nav .container .nav-more:hover .nav-more-content {
+          display: block; }
+        #PUB_HEADER .header-nav .container .nav-more:hover .nav-more-a {
+          border: 1px solid #ddd;
+          border-bottom: none;
+          margin: -1px -1px -1px 0;
+          color: #fa0064; }
+          #PUB_HEADER .header-nav .container .nav-more:hover .nav-more-a span {
+            border: none; }
+            #PUB_HEADER .header-nav .container .nav-more:hover .nav-more-a span .icon-down {
+              transform: rotate(180deg);
+              transition: all 0.1s; }
+        #PUB_HEADER .header-nav .container .nav-more .nav-more-a {
+          display: inline-block;
+          line-height: 60px;
+          position: relative;
+          z-index: 50;
+          background-color: #fff; }
+          #PUB_HEADER .header-nav .container .nav-more .nav-more-a span .icon-down {
+            margin-left: 5px; }
+        #PUB_HEADER .header-nav .container .nav-more .nav-more-content {
+          width: 1189px;
+          height: 290px;
+          padding: 30px 0;
+          border: 1px solid #ddd;
+          display: none;
+          background-color: #fff;
+          position: absolute;
+          right: -1px;
+          top: 59px;
+          z-index: 30; }
+          #PUB_HEADER .header-nav .container .nav-more .nav-more-content ul {
+            width: 920px; }
+            #PUB_HEADER .header-nav .container .nav-more .nav-more-content ul li {
+              width: 172px;
+              height: 270px;
+              padding-left: 10px;
+              float: left;
+              border-right: 1px solid #ddd; }
+              #PUB_HEADER .header-nav .container .nav-more .nav-more-content ul li .title {
+                width: 100%;
+                height: 30px; }
+                #PUB_HEADER .header-nav .container .nav-more .nav-more-content ul li .title a {
+                  color: #666;
+                  font-size: 14px;
+                  line-height: 1em;
+                  margin-bottom: 15px;
+                  display: block;
+                  font-weight: 600; }
+              #PUB_HEADER .header-nav .container .nav-more .nav-more-content ul li .nav-item {
+                width: 100%;
+                min-height: 50px;
+                margin-bottom: 10px; }
+                #PUB_HEADER .header-nav .container .nav-more .nav-more-content ul li .nav-item .header {
+                  width: 100%;
+                  height: 25px; }
+                  #PUB_HEADER .header-nav .container .nav-more .nav-more-content ul li .nav-item .header a {
+                    color: #aaa;
+                    display: block;
+                    line-height: 25px; }
+                #PUB_HEADER .header-nav .container .nav-more .nav-more-content ul li .nav-item .content a {
+                  min-width: 28px;
+                  line-height: 14px;
+                  padding: 0 10px;
+                  margin: 6px 0;
+                  border-right: 1px solid #ddd;
+                  display: inline-block; }
+                  #PUB_HEADER .header-nav .container .nav-more .nav-more-content ul li .nav-item .content a.no-border {
+                    border: none; }
+          #PUB_HEADER .header-nav .container .nav-more .nav-more-content .app {
+            width: 250px;
+            height: 290px;
+            padding-left: 10px;
+            position: absolute;
+            top: 30px;
+            right: 0; }
+            #PUB_HEADER .header-nav .container .nav-more .nav-more-content .app .title {
+              width: 100%;
+              height: 30px; }
+              #PUB_HEADER .header-nav .container .nav-more .nav-more-content .app .title a {
+                color: #666;
+                font-size: 14px;
+                line-height: 1em;
+                margin-bottom: 15px;
+                display: block;
+                font-weight: 600; }
+            #PUB_HEADER .header-nav .container .nav-more .nav-more-content .app .nav-item {
+              width: 100%;
+              min-height: 50px;
+              margin-bottom: 10px;
+              clear: both; }
+              #PUB_HEADER .header-nav .container .nav-more .nav-more-content .app .nav-item ul {
+                width: 100%; }
+                #PUB_HEADER .header-nav .container .nav-more .nav-more-content .app .nav-item ul li {
+                  width: 50px;
+                  height: 70px;
+                  border: none; }
+              #PUB_HEADER .header-nav .container .nav-more .nav-more-content .app .nav-item .weixin {
+                width: 100px;
+                height: 130px;
+                text-align: center;
+                padding: 10px;
+                display: inline-block;
+                float: left; }
+                #PUB_HEADER .header-nav .container .nav-more .nav-more-content .app .nav-item .weixin img {
+                  display: block; }
+                #PUB_HEADER .header-nav .container .nav-more .nav-more-content .app .nav-item .weixin span {
+                  display: block; }
+
+/*# sourceMappingURL=pub-header.css.map */

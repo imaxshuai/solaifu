@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>搜来福首页</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-responsive.css">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="css/extension.css">
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/load.js"></script>
+</head>
+<body>
+
+<div id="PUB_HEADER"></div>
+
+<!---------------用户中心头部资料界面--------------->
+<div class="user">
+
+    <div class="header-top">
+        <ul>
+            <li>
+                <a href="./extension-ad.html"><h4><i class="icon icon-ad-big"></i>广告推广</h4></a>
+            </li>
+            <li>
+                <a href="./extension.html"><h4><i class="icon icon-diamond-big"></i>紫金钻</h4></a>
+            </li>
+            <li>
+                <a href="./extension-jin.html"><h4><i class="icon icon-jin-big"></i>金榜</h4></a>
+            </li>
+            <li>
+                <a href="./extension-yin.html"><h4><i class="icon icon-yin-big"></i>银榜</h4></a>
+            </li>
+            <li>
+                <a href="./extension-tong.html"><h4><i class="icon icon-tong-big"></i>铜榜</h4></a>
+            </li>
+            <li>
+                <a href="./extension-top.html"><h4><i class="icon icon-top-big"></i>置顶</h4></a>
+            </li>
+            <li>
+                <a href="./extension-hot.html"><h4><i class="icon icon-hot-big"></i>火</h4></a>
+            </li>
+            <li>
+                <a href="./extension-discount.html"><h4><i class="icon icon-discount-big"></i>折</h4></a>
+            </li>
+            <li>
+                <a href="./extension-new.html"><h4><i class="icon icon-new-big"></i>新</h4></a>
+            </li>
+            <li>
+                <a href="./extension-refresh-time.html"><h4><i class="icon icon-refresh-big"></i>刷新</h4></a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="content">
+
+        <div class="right">
+            <div class="header">
+                <ul>
+                    <li class="active">银榜</li>
+                </ul>
+            </div>
+            <div class="info yin">
+
+                <ul>
+                    <li>
+                        <h3><i class="icon icon-yin-big"></i>银榜</h3>
+                        <p>
+                            将您的消息置于顶部，岂不妙哉！</br>
+                            次于金榜之下</br>
+                            银榜闪亮标识，彰显尊贵地位</br>
+                        </p>
+                        <img src="./img/extension-yin.png" />
+                        <h3>费用查询</h3>
+                        <img src="./img/extension-price.png" />
+                        <h3>开通方式</h3>
+                        <div class="pay-open">
+                            <div class="step-box02">
+                                <div class="step step-01 active">
+                                    <div class="line-center"></div>
+                                    <div class="round">1</div>
+                                    <div class="describe">
+                                        第一步<br>
+                                        选择套餐信息与开通时长
+                                    </div>
+                                </div>
+                                <div class="step step-02 active">
+                                    <div class="line-center"></div>
+                                    <div class="round">2</div>
+                                    <div class="describe">
+                                        第二步<br>
+                                        进行金额支付
+                                    </div>
+                                </div>
+                                <div class="step step-03 active">
+                                    <div class="line-center"></div>
+                                    <div class="round">3</div>
+                                    <div class="describe">
+                                        第三步<br>
+                                        支付完成，成功开通！
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a class="to-open" id="modal" href="#modal-container" data-toggle="modal">立即开通</a>
+
+
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="modal fade buy-resume hide" id="modal-container" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h4 class="modal-title" id="myModalLabel">
+                        选择要推广的信息
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <form action="./pay-extension-yin.html">
+                        <table class="table">
+                            <thead>
+                            <tr>
+                                <th>选择</th>
+                                <th>标题</th>
+                                <th>地点</th>
+                                <th>更新时间</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td><input type="radio" name="diamond"></td>
+                                <td>Iphone6s 2300出95新（过保）</td>
+                                <td>南京-浦口-桥北</td>
+                                <td>2017/08/18</td>
+                            </tr>
+                            <tr>
+                                <td><input type="radio" name="diamond"></td>
+                                <td>Iphone6s 2300出95新（过保）</td>
+                                <td>南京-浦口-桥北</td>
+                                <td>2017/08/18</td>
+                            </tr>
+                            <tr>
+                                <td><input type="radio" name="diamond"></td>
+                                <td>Iphone6s 2300出95新（过保）</td>
+                                <td>南京-浦口-桥北</td>
+                                <td>2017/08/18</td>
+                            </tr>
+                            <tr>
+                                <td><input type="radio" name="diamond"></td>
+                                <td>Iphone6s 2300出95新（过保）</td>
+                                <td>南京-浦口-桥北</td>
+                                <td>2017/08/18</td>
+                            </tr>
+                            <tr>
+                                <td><input type="radio" name="diamond"></td>
+                                <td>Iphone6s 2300出95新（过保）</td>
+                                <td>南京-浦口-桥北</td>
+                                <td>2017/08/18</td>
+                            </tr>
+                            <tr>
+                                <td><input type="radio" name="diamond"></td>
+                                <td>Iphone6s 2300出95新（过保）</td>
+                                <td>南京-浦口-桥北</td>
+                                <td>2017/08/18</td>
+                            </tr>
+                            </tbody>
+
+                        </table>
+
+                        <div class="pagination">
+                            <ul>
+                                <li><a href="#">首页</a></li>
+                                <li><a href="#" class="active">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">...</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li><a href="#" style="border-radius: 0 4px 4px 0">尾页</a></li>
+                            </ul>
+                        </div>
+
+
+                        <button type="submit">下一步</button>
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!---------------首页页脚部分--------------->
+<div id="PUB_FOOTER"></div>
+
+
+</body>
+</html>

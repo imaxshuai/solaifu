@@ -1,0 +1,229 @@
+body{
+  background-color: #fff;
+}
+.sign{
+  width: 510px;
+  min-height: 450px;
+  margin: 100px auto 0;
+  position: relative;
+  ul{
+    height: 42px;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+    bottom: 30px;
+    li{
+      width: 50%;;
+      height: 40px;
+      line-height: 40px;
+      float: left;
+      text-align: center;
+      font-weight: bold;
+      cursor: pointer;
+      &.active{
+        color: #fa0064;
+        border-bottom: 3px solid #fa0064;
+      }
+    }
+  }
+  form{
+    width: 400px;
+    clear: both;
+    padding-top: 30px;
+    margin: 0 auto;
+    display: none;
+    &.login{
+      display: block;
+    }
+    &.QR{
+      text-align: center;
+      height: 280px;
+      img{
+        width: 150px;
+        height: 150px;
+        padding: 30px 0 10px;
+      }
+    }
+    .form-group{
+      height: 80px;
+      position: relative;
+      input{
+        border-radius: 5px;
+        border-color: #ddd;
+        height: 30px;
+        width: 385px;
+        vertical-align: top;
+        text-indent: 50px;
+        margin: 0;
+      }
+      input[type=checkbox]{
+        width: 12px;
+        height: 12px;
+        margin: 5px 5px 0 0;
+      }
+      .icon{
+        position: absolute;
+        top: 9px;
+        left: 20px;
+      }
+      div{
+        &.small{
+          width: 194px;
+        }
+        span{
+          font-size: 12px;
+          color: #aaa;
+          padding-left: 2px;
+          line-height: 30px;
+        }
+        p{
+          float: right;
+          color: #f00;
+          margin: 0;
+          line-height: 30px;
+          display: inline;
+        }
+      }
+    }
+    .form-group-other{
+      input{
+        width: 180px;
+        display: inline-block;
+        *display: inline;
+        *zoom: 1;
+      }
+      .valid-img{
+        width: 140px;
+        height: 35px;
+        background-color: #eee;
+        display: inline-block;
+        float: right;
+        *display: inline;
+        *zoom: 1;
+        img{
+          width: 140px;
+          height: 40px;
+        }
+        a{
+          line-height: 30px;
+        }
+      }
+      button{
+        float: right;
+        line-height: 38px;
+        width: 140px;
+        background-color: #fa0064;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        &:hover{
+          opacity: 0.7;
+        }
+      }
+    }
+    .form-group-submit{
+      button{
+        width: 100%;
+        height: 40px;
+        background-color: #fa0064;
+        border: none;
+        color: #f0f2f2;
+        border-radius: 5px;
+        &:hover{
+          opacity: 0.7;
+        }
+      }
+      a{
+        margin: 15px 0 0;
+        display: inline-block;
+        float: left;
+        *display: inline;
+        *zoom: 1;
+        &.to-sign{
+          float: right;
+        }
+      }
+    }
+  }
+
+  .icon-qq{
+    width: 42px;
+    height: 42px;
+    background:url("../img/icon.png") no-repeat -85px -229px;
+  }
+  .icon-weixin{
+    width: 42px;
+    height: 42px;
+    background:url("../img/icon.png") no-repeat 0 -229px;
+  }
+
+  .other-login{
+    width: 400px;
+    clear: both;
+    text-align: center;
+    margin: 20px auto;
+    .login-way{
+      clear: both;
+      height: 20px;
+      border-bottom: 1px dotted #ccc;
+      text-align: center;
+      p{
+        line-height: 40px;
+        background-color: #fff;
+        display: inline-block;
+        padding: 0 20px;
+        color: #999;
+        *display: inline;
+        *zoom: 1;
+      }
+    }
+    .qq-login{
+      padding: 20px 35px;
+      float: left;
+      cursor: pointer;
+      span{
+        line-height: 42px;
+        vertical-align: top;
+        padding: 0 10px;
+      }
+    }
+    .weixin-login{
+      padding: 20px 30px;
+      float: right;
+      cursor: pointer;
+      span{
+        line-height: 42px;
+        vertical-align: top;
+        padding: 0 10px;
+      }
+    }
+  }
+
+}
+
+.register{
+  height: 520px;
+  ul{
+    li{
+      width: 50%;
+      a{
+        &:hover{
+          color: #f0f2f2;
+        }
+      }
+    }
+    a{
+      float: right;
+      li{
+        width: 130px;
+        font-weight: normal;
+        margin-right: 40px;
+      }
+    }
+  }
+  form{
+    display: block;
+    .agreement{
+      height: 40px;
+    }
+  }
+}

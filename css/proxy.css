@@ -1,0 +1,87 @@
+.proxy .item {
+  margin: 0 auto; }
+  .proxy .item.item01 {
+    width: 100%;
+    text-align: center;
+    padding: 50px 0; }
+    .proxy .item.item01 .content {
+      width: 800px;
+      margin: 0 auto;
+      position: relative; }
+      .proxy .item.item01 .content .proxy-href {
+        height: 50px; }
+        .proxy .item.item01 .content .proxy-href a {
+          padding: 8px 20px;
+          font-size: 16px;
+          color: #fa0064;
+          background-color: #fff;
+          border-radius: 5px;
+          border: 1px solid #fa0064; }
+          .proxy .item.item01 .content .proxy-href a:hover {
+            opacity: .7; }
+          .proxy .item.item01 .content .proxy-href a.active {
+            color: #fff;
+            background-color: #fa0064; }
+            .proxy .item.item01 .content .proxy-href a.active:hover {
+              color: #fff !important;
+              opacity: .7; }
+      .proxy .item.item01 .content img {
+        width: 800px; }
+  .proxy .item.item02 {
+    width: 100%;
+    background-color: #e8ffff; }
+    .proxy .item.item02 .content {
+      width: 800px;
+      text-align: center;
+      padding: 30px 0 50px;
+      margin: 0 auto;
+      position: relative; }
+      .proxy .item.item02 .content p {
+        color: #666;
+        text-align: left;
+        line-height: 25px;
+        font-size: 14px;
+        text-indent: 32px; }
+      .proxy .item.item02 .content h3 {
+        color: #444;
+        background: url("../img/bg-title.png") no-repeat 0 25px;
+        background-size: 100% 20px;
+        display: inline-block;
+        padding-bottom: 30px;
+        *display: inline;
+        *zoom: 1;
+        width: 250px; }
+    .proxy .item.item02 a {
+      padding: 8px 20px;
+      font-size: 16px;
+      color: #fff;
+      border-radius: 5px;
+      background-color: #fa0064;
+      margin-top: 20px;
+      display: inline-block;
+      *display: inline;
+      *zoom: 1; }
+      .proxy .item.item02 a:hover {
+        color: #fff !important;
+        opacity: .7; }
+  .proxy .item.item03 {
+    background-color: #fff; }
+
+.village .item.item02 {
+  background-color: #fef4ff; }
+.village .item.item03 {
+  background-color: #fff; }
+.village .item h4 {
+  margin: 20px 0; }
+.village .item h5 {
+  margin: 15px 0;
+  font-size: 14px;
+  color: #999; }
+
+.footer {
+  padding: 50px 0 20px;
+  text-align: center; }
+  .footer p {
+    color: #999; }
+
+/*# sourceMappingURL=proxy.css.map */

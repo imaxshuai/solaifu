@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>搜来福首页</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/public.css">
+	<link rel="stylesheet" href="css/pay.css">
+	<script src="js/jquery-1.9.1.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/load.js"></script>
+</head>
+<body>
+
+<div id="PUB_HEADER"></div>
+
+<div class="nav-help" style="width: 1000px;">
+	<div>
+		<a href="./index.html">搜来福</a>
+		<i class="icon icon-step-small"></i>
+		<a href="./index.html">南京</a>
+		<i class="icon icon-step-small"></i>
+		<a href="#">开通会员</a>
+	</div>
+</div>
+
+<div class="pay pay-top">
+	<p><i class="icon icon-system"></i>VIP 会员，海量低价豪华套餐。赶快开通吧！</p>
+	<form action="pay-zfb.html">
+		<div class="choose-box">
+			<p class="name">VIP 分类 :</p>
+			<div class="checkbox checkbox-vip">
+				<label class="active">
+					<input type="radio" name="city" checked value="生活" />
+					<p><i class="icon icon-vip"></i> 生活</p>
+					<i class="icon icon-active"></i>
+				</label>
+			</div>
+		</div>
+
+		<div class="choose-box pay-way">
+			<p class="name">开通时长 :</p>
+			<div class="radio radio-pay">
+				<label>
+					<input type="radio" name="time" checked value="1" />
+					<h5>季版</h5>
+					<i class="icon icon-active"></i>
+				</label>
+				<label>
+					<input type="radio" name="time" value="3" />
+					<h5>半年版</h5>
+					<i class="icon icon-active"></i>
+				</label>
+				<label>
+					<input type="radio" name="time" value="5" />
+					<h5>全年版</h5>
+					<i class="icon icon-active"></i>
+				</label>
+				<label>
+					<input type="radio" name="time" value="7" />
+					<h5>两年</h5>
+					<i class="icon icon-active"></i>
+				</label>
+				<label>
+					<input type="radio" name="time" value="15" />
+					<h5>三年</h5>
+					<i class="icon icon-active"></i>
+				</label>
+			</div>
+		</div>
+
+		<div class="all-price">
+			<p>需&nbsp;&nbsp;支&nbsp;付 :</p><span class="superWarning">0</span>元
+		</div>
+
+		<div class="all-price">
+			<p>账户余额：</p>
+			<div class="balance">
+				<p>福币余额 <b>1000</b> 元，专有余额 <b>300</b> 元</p>
+				<span>(余额支付，默认优先扣除福币。)</span>
+			</div>
+		</div>
+
+		<div class="choose-box pay-way">
+			<p class="name">支付方式 :</p>
+			<div class="radio radio-pay">
+				<label>
+					<input type="radio" name="payWay" value="2000" />
+					<h5>支付宝</h5>
+					<i class="icon icon-active"></i>
+				</label>
+				<label>
+					<input type="radio" name="payWay" value="2000" />
+					<h5>微信支付</h5>
+					<i class="icon icon-active"></i>
+				</label>
+				<label>
+					<input type="radio" name="payWay" value="2000" />
+					<h5>余额支付</h5>
+					<i class="icon icon-active"></i>
+				</label>
+			</div>
+		</div>
+
+		<div class="submit">
+			<input type="submit" value="确认支付">
+		</div>
+
+	</form>
+
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,383 @@
+body {
+  background-color: #fdfdfd !important; }
+
+.filter {
+  width: 1190px;
+  background-color: #fff;
+  margin: 0 auto; }
+  .filter .parse {
+    padding: 0; }
+    .filter .parse li .title {
+      float: left;
+      color: #333333;
+      font-weight: 600;
+      width: 70px;
+      line-height: 24px;
+      text-align: right;
+      margin-right: 5px; }
+    .filter .parse li .position {
+      width: 1100px;
+      float: left;
+      font-size: 12px;
+      padding-bottom: 15px;
+      vertical-align: top; }
+      .filter .parse li .position span {
+        display: inline-block;
+        color: #555;
+        line-height: 25px; }
+        .filter .parse li .position span a {
+          padding: 0 15px; }
+      .filter .parse li .position span.active {
+        color: #fa0064;
+        margin: -1px;
+        border: 1px solid #fa0064; }
+        .filter .parse li .position span.active a {
+          color: #fa0064; }
+      .filter .parse li .position .custom {
+        display: inline-block;
+        vertical-align: top; }
+        .filter .parse li .position .custom input {
+          width: 40px;
+          border-radius: 0;
+          height: 14px;
+          margin: 0; }
+        .filter .parse li .position .custom button {
+          height: 23px;
+          line-height: 20px;
+          margin-left: 15px; }
+        .filter .parse li .position .custom.custom-long input[type=text] {
+          width: 160px;
+          height: 15px; }
+        .filter .parse li .position .custom.custom-long input[type=submit] {
+          height: 25px;
+          width: 60px;
+          line-height: 21px;
+          padding: 0;
+          margin-left: -1px; }
+      .filter .parse li .position select {
+        width: auto;
+        text-align: center;
+        border-radius: 0;
+        height: 25px;
+        padding: 0 10px;
+        color: #aaaaaa;
+        margin-right: 10px; }
+        .filter .parse li .position select option {
+          font-size: 12px;
+          color: #aaaaaa;
+          text-align: center; }
+  .filter .filter-term {
+    clear: both; }
+    .filter .filter-term p {
+      line-height: 30px; }
+      .filter .filter-term p span {
+        padding: 2px 10px;
+        border: 1px solid #fa0064;
+        margin-right: 20px; }
+  .filter .sort {
+    clear: both;
+    width: 100%;
+    height: 40px;
+    border-bottom: 2px solid #fa0064;
+    margin: 30px 0 10px; }
+    .filter .sort .term {
+      line-height: 40px;
+      float: left; }
+      .filter .sort .term span {
+        height: 40px;
+        font-size: 16px;
+        padding: 0 20px;
+        color: #666;
+        display: inline-block;
+        cursor: pointer;
+        *display: inline;
+        *zoom: 1; }
+        .filter .sort .term span.active {
+          background-color: #fa0064;
+          color: white; }
+    .filter .sort .sort-term {
+      line-height: 40px;
+      float: right; }
+      .filter .sort .sort-term span {
+        padding: 0 10px;
+        cursor: pointer; }
+        .filter .sort .sort-term span.active {
+          color: #fa0064; }
+
+.list-content {
+  width: 1190px;
+  margin: 0 auto;
+  font-size: 14px;
+  background-color: #fff;
+  position: relative; }
+  .list-content .item-list {
+    background-color: #fff;
+    padding-bottom: 1px;
+    width: 980px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1; }
+    .list-content .item-list .item {
+      width: 940px;
+      height: 130px;
+      padding: 25px 20px;
+      border-bottom: 1px solid #eee;
+      position: relative; }
+      .list-content .item-list .item:hover {
+        background-color: #f8f8f8; }
+      .list-content .item-list .item img {
+        width: 180px;
+        height: 130px; }
+      .list-content .item-list .item h4 {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        margin: 0;
+        line-height: 1em;
+        font-size: 18px;
+        color: #fa0064; }
+      .list-content .item-list .item .superWarning {
+        font-weight: normal;
+        line-height: 30px;
+        margin: 0 10px;
+        position: relative;
+        bottom: 3px; }
+      .list-content .item-list .item .time {
+        position: absolute;
+        right: 30px;
+        bottom: 20px;
+        color: #999; }
+      .list-content .item-list .item .item-info {
+        width: 520px;
+        height: 120px;
+        padding: 5px 0 5px 20px;
+        display: inline-block;
+        vertical-align: top;
+        *display: inline;
+        *zoom: 1;
+        position: relative; }
+        .list-content .item-list .item .item-info i {
+          margin-right: 5px; }
+        .list-content .item-list .item .item-info h3 {
+          max-width: 350px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          font-size: 16px;
+          margin: 0;
+          line-height: 20px;
+          color: #333;
+          display: inline-block;
+          *display: inline;
+          *zoom: 1; }
+          .list-content .item-list .item .item-info h3:hover {
+            color: #fa0064; }
+          .list-content .item-list .item .item-info h3 small {
+            color: #fa0064;
+            padding-left: 10px; }
+        .list-content .item-list .item .item-info p {
+          color: #555;
+          position: absolute;
+          top: 55px; }
+          .list-content .item-list .item .item-info p span {
+            padding: 0 10px;
+            color: #999; }
+        .list-content .item-list .item .item-info .line {
+          color: #555;
+          position: absolute;
+          bottom: 0; }
+  .list-content .job-list {
+    background-color: #fff;
+    padding-bottom: 1px;
+    width: 980px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1; }
+    .list-content .job-list .item {
+      height: 60px;
+      padding: 20px;
+      font-size: 12px;
+      position: relative; }
+      .list-content .job-list .item:hover {
+        background-color: #f8f8f8; }
+      .list-content .job-list .item .main {
+        width: 400px;
+        height: 60px;
+        position: relative; }
+        .list-content .job-list .item .main h3 {
+          font-size: 18px;
+          overflow: hidden;
+          margin: 0;
+          color: #333;
+          max-width: 290px;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          line-height: 20px;
+          display: inline-block;
+          *display: inline;
+          *zoom: 1; }
+          .list-content .job-list .item .main h3:hover {
+            color: #fa0064; }
+        .list-content .job-list .item .main p {
+          color: #555;
+          margin: 0;
+          position: absolute;
+          bottom: 0; }
+          .list-content .job-list .item .main p span {
+            padding: 0 5px;
+            color: #999; }
+      .list-content .job-list .item .time {
+        position: absolute;
+        right: 32px;
+        top: 60px;
+        color: #999; }
+      .list-content .job-list .item h4 {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        margin: 0;
+        line-height: 1em;
+        font-size: 18px;
+        color: #fa0064; }
+        .list-content .job-list .item h4 small {
+          color: #fa0064; }
+      .list-content .job-list .item .item-info {
+        width: 300px;
+        height: 60px;
+        padding: 0;
+        float: left;
+        text-align: center;
+        position: absolute;
+        top: 20px;
+        left: 450px; }
+        .list-content .job-list .item .item-info p {
+          width: 300px;
+          overflow: hidden;
+          font-size: 15px;
+          color: #333; }
+          .list-content .job-list .item .item-info p.company {
+            margin: 0;
+            color: #777;
+            font-size: 12px;
+            position: absolute;
+            bottom: 0; }
+    .list-content .job-list .pagination {
+      width: auto;
+      margin: 30px auto; }
+      .list-content .job-list .pagination a {
+        color: #aaa; }
+        .list-content .job-list .pagination a:hover {
+          color: #ffffff !important;
+          background-color: #fa0064; }
+        .list-content .job-list .pagination a.active {
+          color: #ffffff !important;
+          background-color: #fa0064; }
+  .list-content .resume-list {
+    font-size: 14px;
+    width: 960px;
+    padding: 0; }
+    .list-content .resume-list .item {
+      height: 85px;
+      border-bottom: 1px solid #eee;
+      width: 1150px; }
+    .list-content .resume-list .left {
+      float: left; }
+      .list-content .resume-list .left h3 {
+        display: inline-block;
+        vertical-align: bottom;
+        margin: 0;
+        font-size: 25px;
+        line-height: 25px;
+        *display: inline;
+        *zoom: 1; }
+      .list-content .resume-list .left p {
+        margin: 15px 0 0 0;
+        font-size: 14px;
+        line-height: 14px;
+        color: #888; }
+        .list-content .resume-list .left p.sample-info {
+          vertical-align: bottom;
+          margin: 0;
+          display: inline-block;
+          color: #444;
+          *display: inline;
+          *zoom: 1; }
+        .list-content .resume-list .left p span {
+          padding: 0 10px;
+          border-right: 1px solid #ccc; }
+          .list-content .resume-list .left p span.last {
+            border: none; }
+    .list-content .resume-list .right {
+      float: right; }
+      .list-content .resume-list .right p {
+        display: inline-block;
+        padding: 0 10px;
+        color: #888;
+        margin: 8px 0; }
+        .list-content .resume-list .right p:first-child {
+          border-right: 1px solid #fa0064; }
+      .list-content .resume-list .right div {
+        height: 30px;
+        width: 100px;
+        line-height: 30px;
+        text-align: center;
+        background-color: #fa0064;
+        font-size: 14px;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        position: absolute;
+        bottom: 22px;
+        right: 55px; }
+        .list-content .resume-list .right div:hover {
+          opacity: 0.8; }
+  .list-content .business-list .item h4 {
+    padding: 5px 15px;
+    border: 1px solid #fa0064;
+    font-weight: normal;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px; }
+    .list-content .business-list .item h4:hover {
+      background-color: #fa0064;
+      color: #fff; }
+  .list-content .business-list .item .alert-box {
+    background-color: #fff;
+    border: 2px solid #fa0064;
+    border-radius: 5px;
+    padding: 10px 30px;
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 10px; }
+    .list-content .business-list .item .alert-box div {
+      padding: 10px 0; }
+      .list-content .business-list .item .alert-box div label {
+        display: inline;
+        padding: 0 10px 0 0; }
+      .list-content .business-list .item .alert-box div h5 {
+        color: #fa0064;
+        font-size: 22px;
+        display: inline; }
+    .list-content .business-list .item .alert-box p {
+      color: #999; }
+
+.foot-ad {
+  height: 70px;
+  width: 1190px;
+  margin: 10px auto;
+  clear: both; }
+  .foot-ad .ad {
+    width: 592px;
+    height: 70px;
+    background-color: #2f96b4;
+    float: left; }
+    .foot-ad .ad.ad02 {
+      margin-left: 6px; }
+
+.ad {
+  width: 1190px;
+  height: 55px;
+  margin: 0 auto; }
+
+/*# sourceMappingURL=list.css.map */

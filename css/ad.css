@@ -1,0 +1,212 @@
+.ad {
+  width: 1190px;
+  height: 55px;
+  margin: 0 auto; }
+
+.foot-ad {
+  width: 1190px;
+  margin: 10px auto;
+  height: 70px;
+  clear: both; }
+  .foot-ad .ad {
+    width: 592px;
+    height: 70px;
+    background-color: #2f96b4;
+    float: left; }
+    .foot-ad .ad.ad02 {
+      margin-left: 6px; }
+
+#LIST_AD_RIGHT {
+  margin-left: 10px;
+  display: inline-block;
+  vertical-align: top;
+  *display: inline;
+  *zoom: 1; }
+  #LIST_AD_RIGHT .ad-list {
+    float: right;
+    width: 175px;
+    padding: 10px;
+    background-color: #fff;
+    display: inline-block;
+    vertical-align: top;
+    *display: inline;
+    *zoom: 1; }
+    #LIST_AD_RIGHT .ad-list h4 {
+      text-align: center; }
+    #LIST_AD_RIGHT .ad-list .item {
+      border: 1px solid #aaa;
+      margin-bottom: 20px; }
+      #LIST_AD_RIGHT .ad-list .item img {
+        width: 175px;
+        height: 120px; }
+      #LIST_AD_RIGHT .ad-list .item .item-info {
+        width: 155px;
+        padding: 10px; }
+        #LIST_AD_RIGHT .ad-list .item .item-info h4 {
+          color: #fa0064;
+          margin: 10px 0 0 0;
+          text-align: left; }
+        #LIST_AD_RIGHT .ad-list .item .item-info p {
+          color: #666;
+          white-space: nowrap;
+          overflow: hidden;
+          margin: 0;
+          text-overflow: ellipsis; }
+        #LIST_AD_RIGHT .ad-list .item .item-info div {
+          color: #999;
+          margin-top: 5px; }
+          #LIST_AD_RIGHT .ad-list .item .item-info div span {
+            padding-right: 20px; }
+
+#JOB_LIST_AD_RIGHT .ad-list {
+  float: right;
+  width: 180px;
+  padding: 0;
+  background-color: #fff;
+  font-size: 12px;
+  position: absolute;
+  right: 0;
+  top: 0; }
+  #JOB_LIST_AD_RIGHT .ad-list .item {
+    margin-bottom: 20px; }
+    #JOB_LIST_AD_RIGHT .ad-list .item img {
+      width: 175px;
+      height: 120px; }
+    #JOB_LIST_AD_RIGHT .ad-list .item .item-info {
+      width: 155px;
+      padding: 10px 0; }
+      #JOB_LIST_AD_RIGHT .ad-list .item .item-info h4 {
+        color: #fa0064;
+        margin: 10px 0 0 0;
+        font-weight: normal;
+        font-size: 12px; }
+      #JOB_LIST_AD_RIGHT .ad-list .item .item-info p {
+        color: #666;
+        white-space: nowrap;
+        overflow: hidden;
+        margin: 0;
+        text-overflow: ellipsis; }
+      #JOB_LIST_AD_RIGHT .ad-list .item .item-info div {
+        color: #999;
+        margin-top: 5px; }
+        #JOB_LIST_AD_RIGHT .ad-list .item .item-info div span {
+          padding-right: 20px; }
+
+#LIST_AD_HEADER {
+  padding: 50px 0; }
+  #LIST_AD_HEADER .ad-list {
+    width: 1190px;
+    background-color: #fff;
+    margin: 0 auto;
+    clear: both;
+    height: 850px;
+    display: block;
+    text-align: center; }
+    #LIST_AD_HEADER .ad-list ul li {
+      clear: both; }
+      #LIST_AD_HEADER .ad-list ul li .item {
+        width: 196px;
+        border: 1px dashed #eee;
+        float: left; }
+        #LIST_AD_HEADER .ad-list ul li .item:first-child {
+          margin-left: 0; }
+        #LIST_AD_HEADER .ad-list ul li .item img {
+          width: 146px;
+          height: 120px;
+          margin-top: 20px; }
+        #LIST_AD_HEADER .ad-list ul li .item .item-info {
+          padding: 10px; }
+          #LIST_AD_HEADER .ad-list ul li .item .item-info h4 {
+            color: #fa0064;
+            margin: 10px 0 0 0; }
+          #LIST_AD_HEADER .ad-list ul li .item .item-info p {
+            color: #666;
+            white-space: nowrap;
+            overflow: hidden;
+            margin: 0;
+            text-overflow: ellipsis; }
+          #LIST_AD_HEADER .ad-list ul li .item .item-info div {
+            color: #999;
+            margin-top: 5px; }
+            #LIST_AD_HEADER .ad-list ul li .item .item-info div span {
+              padding-right: 20px; }
+
+#LIST_AD_FOOTER .ad-list {
+  width: 1190px;
+  background-color: #fff;
+  margin: 0 auto;
+  clear: both;
+  height: 240px;
+  display: block; }
+  #LIST_AD_FOOTER .ad-list ul li {
+    clear: both; }
+    #LIST_AD_FOOTER .ad-list ul li .item {
+      width: 175px;
+      border: 1px solid #aaa;
+      margin: 0 0 20px 25px;
+      float: left; }
+      #LIST_AD_FOOTER .ad-list ul li .item:first-child {
+        margin-left: 0; }
+      #LIST_AD_FOOTER .ad-list ul li .item img {
+        width: 175px;
+        height: 120px; }
+      #LIST_AD_FOOTER .ad-list ul li .item .item-info {
+        width: 155px;
+        padding: 10px; }
+        #LIST_AD_FOOTER .ad-list ul li .item .item-info h4 {
+          color: #fa0064;
+          margin: 10px 0 0 0; }
+        #LIST_AD_FOOTER .ad-list ul li .item .item-info p {
+          color: #666;
+          white-space: nowrap;
+          overflow: hidden;
+          margin: 0;
+          text-overflow: ellipsis; }
+        #LIST_AD_FOOTER .ad-list ul li .item .item-info div {
+          color: #999;
+          margin-top: 5px; }
+          #LIST_AD_FOOTER .ad-list ul li .item .item-info div span {
+            padding-right: 20px; }
+
+#DETAIL_AD_RIGHT {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1; }
+  #DETAIL_AD_RIGHT .ad-list {
+    width: 280px;
+    padding: 10px 0;
+    background-color: #fff; }
+    #DETAIL_AD_RIGHT .ad-list .item {
+      margin-bottom: 20px;
+      width: 278px;
+      margin-left: 10px;
+      padding: 20px 0;
+      float: left; }
+      #DETAIL_AD_RIGHT .ad-list .item:first-child {
+        margin-left: 0; }
+      #DETAIL_AD_RIGHT .ad-list .item img {
+        width: 128px;
+        height: 100px;
+        float: left; }
+      #DETAIL_AD_RIGHT .ad-list .item .item-info {
+        width: 115px;
+        padding: 0 10px;
+        float: left; }
+        #DETAIL_AD_RIGHT .ad-list .item .item-info h4 {
+          color: #fa0064;
+          margin: 0;
+          text-align: left; }
+        #DETAIL_AD_RIGHT .ad-list .item .item-info p {
+          color: #666;
+          white-space: nowrap;
+          overflow: hidden;
+          margin: 0;
+          font-weight: bold;
+          text-overflow: ellipsis; }
+        #DETAIL_AD_RIGHT .ad-list .item .item-info div {
+          color: #999;
+          margin: 17px 0; }
+          #DETAIL_AD_RIGHT .ad-list .item .item-info div span {
+            padding-right: 20px; }
+
+/*# sourceMappingURL=ad.css.map */

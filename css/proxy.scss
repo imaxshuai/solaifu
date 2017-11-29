@@ -1,0 +1,115 @@
+.proxy{
+  .item{
+    margin: 0 auto;
+
+    &.item01{
+      width: 100%;
+      text-align: center;
+      padding: 50px 0;
+      .content{
+        width: 800px;
+        margin:  0 auto;
+        position: relative;
+        .proxy-href{
+          height: 50px;
+          a{
+            padding: 8px 20px;
+            font-size: 16px;
+            color: #fa0064;
+            background-color: #fff;
+            border-radius: 5px;
+            border: 1px solid #fa0064;
+            &:hover{
+              opacity: .7;
+            }
+            &.active{
+              color: #fff;
+              background-color: #fa0064;
+              &:hover{
+                color: #fff!important;
+                opacity: .7;
+              }
+            }
+          }
+        }
+        img{
+          width: 800px;
+        }
+
+      }
+    }
+    &.item02{
+      width: 100%;
+      background-color: #e8ffff;
+      .content{
+        width: 800px;
+        text-align: center;
+        padding: 30px 0 50px;
+        margin: 0 auto;
+        position: relative;
+        p{
+          color: #666;
+          text-align: left;
+          line-height: 25px;
+          font-size: 14px;
+          text-indent: 32px;
+        }
+        h3{
+          color: #444;
+          background: url("../img/bg-title.png") no-repeat 0 25px;
+          background-size: 100% 20px;
+          display: inline-block;
+          padding-bottom: 30px;
+          *display: inline;
+          *zoom: 1;
+          width: 250px;
+        }
+      }
+      a{
+        padding: 8px 20px;
+        font-size: 16px;
+        color: #fff;
+        border-radius: 5px;
+        background-color: #fa0064;
+        margin-top: 20px;
+        display: inline-block;
+        *display: inline;
+        *zoom: 1;
+        &:hover{
+          color: #fff!important;
+          opacity: .7;
+        }
+      }
+    }
+    &.item03{
+      background-color: #fff;
+    }
+  }
+
+}
+
+.village{
+  .item{
+    &.item02{
+      background-color: #fef4ff;
+    }
+    &.item03{
+      background-color: #fff;
+    }
+    h4{
+      margin: 20px 0;
+    }
+    h5{
+      margin: 15px 0;
+      font-size: 14px;
+      color: #999;
+    }
+  }
+}
+.footer{
+  padding: 50px 0 20px;
+  text-align: center;
+  p{
+    color: #999;
+  }
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>搜来福首页</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-responsive.css">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="css/user.css">
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/load.js"></script>
+</head>
+<body>
+
+<div id="PUB_HEADER"></div>
+<div id="SEARCH"></div>
+
+<!---------------用户中心头部资料界面--------------->
+<div class="user">
+
+    <div class="header">
+        <img src="./img/header02.png" alt="">
+        <div class="user-info">
+            <h4>梦想如此销魂</h4>
+            <p><i class="icon icon-mobile"></i>153****3031</p>
+        </div>
+    </div>
+
+    <div class="content">
+
+        <div class="left">
+            <div id="USER_LIST"></div>
+        </div>
+
+        <div class="right">
+            <div class="header">
+                <ul>
+                    <li class="active">营业执照认证</li>
+                </ul>
+            </div>
+            <div class="info">
+
+                <div class="step-box02">
+                    <div class="step step-01 active">
+                        <div class="line-center"></div>
+                        <div class="round">1</div>
+                        <div class="describe">填写认证信息</div>
+                    </div>
+                    <div class="step step-02">
+                        <div class="line-center"></div>
+                        <div class="round">2</div>
+                        <div class="describe">等待审核</div>
+                    </div>
+                    <div class="step step-03">
+                        <div class="line-center"></div>
+                        <div class="round">3</div>
+                        <div class="describe">认证成功</div>
+                    </div>
+                </div>
+
+                <form class="to-bind" action="to-bind-02.html">
+                    <p>请认真填写并上传营业执照，我们不会泄露相关信息。</p>
+                    <div>
+                        <p>公&nbsp;司&nbsp;名&nbsp;称 ：</p><input type="text" />
+                    </div>
+                    <div>
+                        <p>公 司 性 质 ：</p>
+                        <select>
+                            <option value="私营企业">私营企业</option>
+                            <option value="国有企业">国有企业</option>
+                            <option value="外商独资">外商独资</option>
+                            <option value="合资企业">合资企业</option>
+                            <option value="政府机关">政府机关</option>
+                            <option value="事业单位">事业单位</option>
+                            <option value="其他">其他</option>
+                        </select>
+                    </div>
+                    <div>
+                        <p>公 司 规 模 ：</p>
+                        <select>
+                            <option value="1-19人">1-19人</option>
+                            <option value="20-49人">20-49人</option>
+                            <option value="50-99人">50-99人</option>
+                            <option value="100-499人">100-499人</option>
+                            <option value="500人以上">500人以上</option>
+                        </select>
+                    </div>
+                    <div>
+                        <p>公 司 网 址 ：</p><input type="text" />
+                    </div>
+                    <div>
+                        <p>联&nbsp;&nbsp;&nbsp;系&nbsp;&nbsp;&nbsp;人 ：</p><input type="text" />
+                    </div>
+                    <div>
+                        <p>联 系 电 话 ：</p><input type="text" />
+                    </div>
+                    <div>
+                        <p>公 司 介 绍 ：</p>
+                        <textarea></textarea>
+                    </div>
+                    <div>
+                        <p>营&nbsp;业&nbsp;执&nbsp;照 ：</p><input type="file" /><span>（营业执照副本扫描件或营业执照附件加彩色公章）</span>
+                    </div>
+                    <input type="submit" value="提交认证">
+                </form>
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<!---------------首页页脚部分--------------->
+<div id="PUB_FOOTER"></div>
+
+
+</body>
+</html>

@@ -1,0 +1,728 @@
+body {
+  background-color: #eeeeee; }
+
+.user {
+  width: 1190px;
+  margin: 20px auto;
+  font-size: 14px;
+  min-height: 1000px;
+  position: relative; }
+  .user .header {
+    padding: 20px 50px;
+    height: 100px;
+    background: #fff; }
+    .user .header img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50px; }
+    .user .header .user-info {
+      position: absolute;
+      top: 30px;
+      left: 180px; }
+      .user .header .user-info h4 {
+        margin-bottom: 20px;
+        display: inline; }
+      .user .header .user-info .open {
+        display: inline;
+        padding-left: 20px; }
+      .user .header .user-info .money {
+        padding-top: 10px; }
+        .user .header .user-info .money p {
+          padding: 0;
+          margin: 0;
+          line-height: 30px;
+          color: #999; }
+          .user .header .user-info .money p a {
+            line-height: 30px;
+            background-color: #fa0064;
+            border-radius: 3px;
+            color: #fff;
+            padding: 3px 10px;
+            font-size: 12px;
+            margin-left: 20px; }
+            .user .header .user-info .money p a:hover {
+              color: #fff !important;
+              opacity: 0.7; }
+      .user .header .user-info .system p {
+        padding: 0;
+        margin: 0;
+        line-height: 30px; }
+      .user .header .user-info .icon {
+        margin-right: 5px; }
+      .user .header .user-info p {
+        padding: 5px 10px; }
+        .user .header .user-info p .icon-mobile {
+          width: 12px;
+          height: 18px;
+          display: inline-block;
+          background: url("../img/icon.png") no-repeat -23px -176px;
+          margin: 0 5px 0 0; }
+  .user .content {
+    width: 1190px;
+    margin: 20px 0;
+    position: relative; }
+    .user .content .left {
+      width: 200px;
+      background-color: #fff;
+      margin-right: 15px;
+      padding: 20px 0;
+      display: inline-block;
+      *display: inline;
+      *zoom: 1; }
+      .user .content .left .item-group h4 {
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 10px;
+        margin: 10px 20px; }
+      .user .content .left .item-group ul li {
+        cursor: pointer; }
+        .user .content .left .item-group ul li.active a {
+          color: #fa0064;
+          font-weight: bold;
+          background-color: #f8f8f8; }
+        .user .content .left .item-group ul li div {
+          display: none;
+          zoom: 1; }
+          .user .content .left .item-group ul li div a {
+            width: 150px;
+            padding: 0 0 0 50px; }
+        .user .content .left .item-group ul li a {
+          width: 160px;
+          padding: 0 20px;
+          display: block;
+          line-height: 35px;
+          margin: 5px 0;
+          font-size: 14px;
+          color: #666; }
+          .user .content .left .item-group ul li a .notic {
+            background-color: #fa0064;
+            border-radius: 50%;
+            font-size: 13px;
+            text-align: center;
+            color: #fff;
+            font-weight: bold;
+            padding: 0 5px;
+            margin-left: 5px; }
+          .user .content .left .item-group ul li a.active {
+            background-color: #f8f8f8;
+            color: #fa0064; }
+            .user .content .left .item-group ul li a.active .icon {
+              transform: rotate(-180deg); }
+          .user .content .left .item-group ul li a:hover {
+            background-color: #fa0064;
+            color: #fff !important; }
+          .user .content .left .item-group ul li a .icon {
+            width: 14px;
+            height: 8px;
+            background: url("../img/icon.png") no-repeat 0px -68px; }
+    .user .content .right {
+      width: 970px;
+      display: inline-block;
+      *display: inline;
+      *zoom: 1;
+      vertical-align: top; }
+      .user .content .right .header {
+        background: #ffffff;
+        height: 40px;
+        padding: 0; }
+        .user .content .right .header ul {
+          height: 39px;
+          border-bottom: 1px solid #ccc; }
+          .user .content .right .header ul a {
+            margin-right: 20px;
+            padding: 2px 5px;
+            float: right;
+            line-height: 35px;
+            color: #fa0064; }
+          .user .content .right .header ul li {
+            line-height: 40px;
+            color: #666;
+            font-size: 16px;
+            display: inline-block;
+            *display: inline;
+            *zoom: 1;
+            padding: 0 20px;
+            cursor: pointer; }
+            .user .content .right .header ul li:hover, .user .content .right .header ul li.active {
+              height: 38px;
+              border-bottom: 3px solid #fa0064;
+              color: #fa0064;
+              font-weight: bold; }
+      .user .content .right .info {
+        width: 100%;
+        margin-top: 10px;
+        background-color: #ffffff;
+        min-height: 500px; }
+        .user .content .right .info ul li {
+          padding: 20px 20px 0 20px; }
+          .user .content .right .info ul li table thead {
+            border-bottom: 1px solid #ddd; }
+          .user .content .right .info ul li table tr th {
+            text-align: center; }
+            .user .content .right .info ul li table tr th:first-child {
+              text-align: left; }
+            .user .content .right .info ul li table tr th.long {
+              width: 700px; }
+              .user .content .right .info ul li table tr th.long h4 {
+                width: 600px; }
+            .user .content .right .info ul li table tr th.longbig {
+              width: 850px; }
+              .user .content .right .info ul li table tr th.longbig h4 {
+                width: 750px; }
+          .user .content .right .info ul li table tr td {
+            line-height: 30px;
+            padding: 10px  10px 0;
+            border-top: none;
+            border-bottom: 1px solid #f3f3f3; }
+            .user .content .right .info ul li table tr td a {
+              color: #666; }
+            .user .content .right .info ul li table tr td:first-child {
+              width: 450px; }
+              .user .content .right .info ul li table tr td:first-child h4 {
+                width: 400px;
+                margin: 0;
+                line-height: 30px;
+                display: inline-block;
+                color: #555;
+                font-size: 14px;
+                *display: inline;
+                *zoom: 1;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap; }
+                .user .content .right .info ul li table tr td:first-child h4:hover {
+                  color: #fa0064; }
+                .user .content .right .info ul li table tr td:first-child h4 span {
+                  padding: 0 10px;
+                  font-weight: normal;
+                  font-size: 12px;
+                  color: #fa0064; }
+            .user .content .right .info ul li table tr td.long {
+              width: 700px; }
+              .user .content .right .info ul li table tr td.long h4 {
+                width: 600px; }
+            .user .content .right .info ul li table tr td.longbig {
+              width: 850px; }
+              .user .content .right .info ul li table tr td.longbig h4 {
+                width: 750px; }
+          .user .content .right .info ul li table.table-resume tr th {
+            border-top: none; }
+          .user .content .right .info ul li table.table-resume tr td {
+            text-align: center; }
+            .user .content .right .info ul li table.table-resume tr td:first-child {
+              width: 280px;
+              text-align: left; }
+              .user .content .right .info ul li table.table-resume tr td:first-child h4 {
+                width: 240px;
+                margin: 0; }
+          .user .content .right .info ul li table.table-resume .first-td td {
+            text-align: left; }
+          .user .content .right .info ul li table.table-resume-list tr th {
+            border-top: none; }
+          .user .content .right .info ul li table.table-resume-list tr td {
+            text-align: left; }
+            .user .content .right .info ul li table.table-resume-list tr td:first-child {
+              width: 35px;
+              text-align: center; }
+              .user .content .right .info ul li table.table-resume-list tr td:first-child h4 {
+                width: 240px;
+                margin: 0; }
+          .user .content .right .info ul li table.table-resume-list .first-td td {
+            text-align: left; }
+          .user .content .right .info ul li .choose-download {
+            text-align: right; }
+            .user .content .right .info ul li .choose-download span {
+              margin: 10px 32px 10px 10px;
+              cursor: pointer;
+              font-weight: bold; }
+              .user .content .right .info ul li .choose-download span:hover {
+                color: #fa0064; }
+          .user .content .right .info ul li form .group {
+            min-height: 50px; }
+            .user .content .right .info ul li form .group p {
+              display: inline-block;
+              *display: inline;
+              *zopm: 1;
+              margin: 0 30px 0 0;
+              width: 80px; }
+            .user .content .right .info ul li form .group .add-alert {
+              padding: 5px 10px;
+              background-color: #fa0064;
+              color: #fff;
+              margin-top: 0;
+              display: inline-block;
+              vertical-align: top;
+              cursor: pointer;
+              *display: inline;
+              *zoom: 5; }
+              .user .content .right .info ul li form .group .add-alert:hover {
+                opacity: 0.7; }
+            .user .content .right .info ul li form .group .alert02, .user .content .right .info ul li form .group .alert03 {
+              display: none; }
+            .user .content .right .info ul li form .group input {
+              margin: 0;
+              border-radius: 0; }
+            .user .content .right .info ul li form .group textarea {
+              width: 600px;
+              height: 130px; }
+            .user .content .right .info ul li form .group label {
+              display: inline;
+              margin-right: 20px; }
+              .user .content .right .info ul li form .group label input {
+                margin: 0 5px 0 0; }
+          .user .content .right .info ul li form button {
+            margin-top: 30px;
+            margin-left: 400px;
+            padding: 10px 30px;
+            background-color: #fa0064;
+            border: none;
+            color: #fff; }
+        .user .content .right .info ul.auth li table tr td {
+          height: 90px; }
+          .user .content .right .info ul.auth li table tr td:first-child {
+            width: 200px; }
+          .user .content .right .info ul.auth li table tr td .bind-name {
+            height: 30px;
+            padding: 25px 0; }
+            .user .content .right .info ul.auth li table tr td .bind-name i {
+              float: left; }
+            .user .content .right .info ul.auth li table tr td .bind-name h4 {
+              display: inline;
+              font-size: 15px;
+              line-height: 30px;
+              vertical-align: top;
+              padding-left: 20px; }
+              .user .content .right .info ul.auth li table tr td .bind-name h4:hover {
+                color: #555; }
+          .user .content .right .info ul.auth li table tr td p {
+            margin: 0;
+            color: #aaa; }
+            .user .content .right .info ul.auth li table tr td p:first-child {
+              margin-top: 10px; }
+          .user .content .right .info ul.auth li table tr td a {
+            display: inline-block;
+            *display: inline;
+            *zoom: 1;
+            line-height: 20px;
+            vertical-align: middle;
+            margin-top: 20px;
+            border-radius: 3px;
+            font-size: 18px;
+            padding-top: 10px; }
+            .user .content .right .info ul.auth li table tr td a.no-auth {
+              background-color: #fa0064;
+              color: #FFFFFF;
+              padding: 10px 20px; }
+              .user .content .right .info ul.auth li table tr td a.no-auth:hover {
+                color: #fff !important;
+                opacity: 0.7; }
+            .user .content .right .info ul.auth li table tr td a:hover {
+              color: #555555 !important; }
+        .user .content .right .info .to-bind {
+          width: 600px;
+          margin: 0 auto;
+          color: #888;
+          padding-bottom: 50px; }
+          .user .content .right .info .to-bind span {
+            color: #fa0064;
+            font-size: 12px; }
+          .user .content .right .info .to-bind .prompt {
+            text-align: center; }
+            .user .content .right .info .to-bind .prompt i {
+              vertical-align: middle; }
+            .user .content .right .info .to-bind .prompt p {
+              vertical-align: middle;
+              font-size: 18px; }
+          .user .content .right .info .to-bind div {
+            padding: 20px 0 0 0; }
+            .user .content .right .info .to-bind div p {
+              display: inline;
+              color: #888; }
+            .user .content .right .info .to-bind div input {
+              margin: 0 0 0 20px;
+              padding: 5px 0;
+              width: 200px;
+              text-indent: 20px;
+              line-height: 28px; }
+            .user .content .right .info .to-bind div select {
+              margin: 0 0 0 14px;
+              padding: 5px 0;
+              width: 204px;
+              text-indent: 20px;
+              line-height: 28px; }
+            .user .content .right .info .to-bind div textarea {
+              width: 400px;
+              height: 100px;
+              vertical-align: top;
+              margin-left: 15px; }
+          .user .content .right .info .to-bind input[type=submit] {
+            width: 150px;
+            height: 35px;
+            line-height: 35px;
+            background-color: #fa0064;
+            color: #FFFFFF;
+            border: none;
+            border-radius: 3px;
+            display: block;
+            margin: 20px auto; }
+          .user .content .right .info .to-bind input[type=file] {
+            line-height: 28px;
+            font-size: 12px;
+            text-indent: 0; }
+        .user .content .right .info .email-02 {
+          text-align: center; }
+          .user .content .right .info .email-02 div p {
+            line-height: 35px;
+            vertical-align: top; }
+          .user .content .right .info .email-02 div i {
+            margin-right: 10px; }
+        .user .content .right .info .none {
+          width: 400px;
+          margin: 0 auto;
+          padding: 100px 0; }
+          .user .content .right .info .none p {
+            line-height: 53px;
+            display: inline-block; }
+            .user .content .right .info .none p .icon-warn {
+              width: 54px;
+              height: 50px;
+              background: url("../img/icon.png") no-repeat 0 -287px;
+              margin-right: 25px;
+              float: left; }
+      .user .content .right .publish-info ul li table tr td {
+        padding: 10px; }
+        .user .content .right .publish-info ul li table tr td:first-child {
+          width: 600px; }
+          .user .content .right .publish-info ul li table tr td:first-child img {
+            float: left;
+            width: 100px;
+            max-height: 100px;
+            vertical-align: middle;
+            margin: 0 20px 0 0; }
+          .user .content .right .publish-info ul li table tr td:first-child .detail a {
+            color: #555; }
+            .user .content .right .publish-info ul li table tr td:first-child .detail a h5 {
+              height: 40px;
+              margin: 0; }
+              .user .content .right .publish-info ul li table tr td:first-child .detail a h5 i {
+                margin: 0 5px; }
+          .user .content .right .publish-info ul li table tr td:first-child .detail p {
+            margin: 0;
+            line-height: 20px;
+            padding-top: 10px;
+            color: #666; }
+          .user .content .right .publish-info ul li table tr td:first-child .detail p.time {
+            color: #aaa;
+            font-size: 12px;
+            padding-top: 10px; }
+            .user .content .right .publish-info ul li table tr td:first-child .detail p.time span {
+              padding-left: 75px; }
+        .user .content .right .publish-info ul li table tr td:last-child {
+          text-align: right;
+          position: relative; }
+          .user .content .right .publish-info ul li table tr td:last-child p {
+            color: #ccc;
+            font-size: 12px;
+            line-height: 12px;
+            padding: 0 65px;
+            margin-bottom: 15px; }
+          .user .content .right .publish-info ul li table tr td:last-child .operate {
+            height: 75px; }
+            .user .content .right .publish-info ul li table tr td:last-child .operate .group {
+              width: 170px;
+              height: 20px;
+              padding-top: 5px;
+              text-align: left;
+              float: right; }
+              .user .content .right .publish-info ul li table tr td:last-child .operate .group span {
+                width: 50px;
+                padding: 0 0 0 10px;
+                color: #666;
+                display: inline-block;
+                line-height: 20px;
+                position: relative;
+                bottom: 8px;
+                font-size: 12px;
+                cursor: pointer;
+                *display: inline;
+                *zoom: 1; }
+                .user .content .right .publish-info ul li table tr td:last-child .operate .group span:first-child {
+                  text-align: right;
+                  padding: 0 10px 0 0;
+                  border-right: 1px solid #ddd; }
+      .user .content .right .publish-info ul li table tr .show-run {
+        width: 200px;
+        padding: 20px 20px; }
+        .user .content .right .publish-info ul li table tr .show-run p {
+          margin: 0;
+          line-height: 20px;
+          border-left: 1px solid #eee;
+          padding-left: 10px;
+          font-size: 12px;
+          color: #fa0064; }
+      .user .content .right .user-info li .header-img {
+        margin-bottom: 50px; }
+        .user .content .right .user-info li .header-img img {
+          width: 100px;
+          height: 100px; }
+        .user .content .right .user-info li .header-img div {
+          width: 100px;
+          line-height: 30px;
+          background-color: #fa0064;
+          text-align: center;
+          margin: 10px 0 0 0;
+          color: #ffffff; }
+      .user .content .right .user-info li .group {
+        width: 100%;
+        min-height: 30px;
+        padding: 10px 0; }
+        .user .content .right .user-info li .group span {
+          color: #666;
+          margin-right: 50px; }
+        .user .content .right .user-info li .group input {
+          width: 170px;
+          color: #666;
+          text-indent: 10px; }
+        .user .content .right .user-info li .group button {
+          background-color: #fa0064;
+          border: none;
+          color: #fff;
+          padding: 2px 15px;
+          margin: 0; }
+        .user .content .right .user-info li .group p {
+          display: inline-block;
+          margin: 0;
+          *display: inline;
+          *zoom: 1; }
+          .user .content .right .user-info li .group p label {
+            display: inline-block;
+            *display: inline;
+            *zoom: 1;
+            margin-right: 20px; }
+            .user .content .right .user-info li .group p label input {
+              margin: 0 5px;
+              width: 10px; }
+        .user .content .right .user-info li .group .revise {
+          width: 35px;
+          height: 18px;
+          background-color: #fa0064;
+          border-radius: 3px;
+          text-align: center;
+          margin: 5px 0 0 30px;
+          display: inline-block;
+          *display: inline;
+          *zoom: 1; }
+          .user .content .right .user-info li .group .revise a {
+            color: #fff;
+            font-size: 12px;
+            line-height: 16px;
+            vertical-align: top; }
+            .user .content .right .user-info li .group .revise a:hover {
+              color: #fff !important;
+              opacity: 0.7; }
+      .user .content .right .user-info li .username-input {
+        display: none; }
+      .user .content .right .user-info li .form-group {
+        dispaly: block; }
+        .user .content .right .user-info li .form-group span {
+          line-height: 50px;
+          margin-right: 20px; }
+        .user .content .right .user-info li .form-group input {
+          border-radius: 0;
+          height: 25px;
+          margin-top: 5px; }
+        .user .content .right .user-info li .form-group label {
+          display: inline-block;
+          margin-right: 20px; }
+          .user .content .right .user-info li .form-group label input {
+            margin-top: -2px; }
+      .user .content .right .user-info li input[type=submit] {
+        padding: 10px 30px;
+        background-color: #fa0064;
+        border: none;
+        color: #fff; }
+      .user .content .right .user-info-resume-search .form {
+        width: 640px; }
+      .user .content .right .user-info-resume-search .form-group {
+        width: 640px !important;
+        height: 50px;
+        margin: 0 140px; }
+        .user .content .right .user-info-resume-search .form-group span {
+          width: 90px;
+          height: 50px;
+          display: inline-block;
+          text-align: right; }
+        .user .content .right .user-info-resume-search .form-group input {
+          width: 500px;
+          display: inline-block; }
+      .user .content .right .user-info-resume-search .form-group-more select {
+        width: 238px;
+        height: 33px;
+        border-radius: 0; }
+      .user .content .right .user-info-resume-search .form-group-more span {
+        width: 30px;
+        text-align: center;
+        margin: 0 !important; }
+        .user .content .right .user-info-resume-search .form-group-more span:first-child {
+          width: 90px;
+          text-align: right;
+          margin-right: 20px !important; }
+      .user .content .right .money .money-box {
+        width: 600px;
+        padding: 50px; }
+        .user .content .right .money .money-box .top p {
+          color: #aaaaaa; }
+        .user .content .right .money .money-box .top span {
+          vertical-align: top;
+          line-height: 40px;
+          color: #aaa;
+          padding-right: 20px; }
+        .user .content .right .money .money-box .top h3 {
+          color: #fa0064;
+          font-size: 17.5px;
+          vertical-align: top;
+          display: inline;
+          *display: inline;
+          *zoom: 1; }
+        .user .content .right .money .money-box .top .alertRecharge {
+          color: #fff;
+          background-color: #fa0064;
+          width: 80px;
+          height: 25px;
+          line-height: 23px;
+          display: inline-block;
+          *display: inline;
+          *zoom: 1;
+          vertical-align: top;
+          text-align: center;
+          border-radius: 2px;
+          margin-top: 10px;
+          margin-left: 30px;
+          cursor: pointer; }
+        .user .content .right .money .money-box .bottom {
+          margin-top: 30px; }
+          .user .content .right .money .money-box .bottom .group {
+            width: 200px;
+            height: 60px;
+            padding: 10px 0;
+            display: inline-block;
+            *display: inline;
+            *zoom: 1; }
+            .user .content .right .money .money-box .bottom .group:first-child {
+              margin-right: 50px; }
+            .user .content .right .money .money-box .bottom .group p {
+              color: #aaaaaa; }
+            .user .content .right .money .money-box .bottom .group span {
+              vertical-align: top;
+              line-height: 40px;
+              color: #aaa;
+              padding-right: 20px; }
+            .user .content .right .money .money-box .bottom .group h3 {
+              color: #fa0064;
+              font-size: 17.5px;
+              vertical-align: top;
+              display: inline;
+              *display: inline;
+              *zoom: 1; }
+      .user .content .right .bill ul li form .group p {
+        width: 110px;
+        text-align: right; }
+      .user .content .right .vip ul li .header {
+        height: auto; }
+        .user .content .right .vip ul li .header p {
+          color: #fa0064;
+          font-weight: bold;
+          line-height: 30px; }
+      .user .content .right .vip ul li .group-vip {
+        min-height: 150px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        margin-bottom: 20px; }
+        .user .content .right .vip ul li .group-vip .panel-header {
+          padding: 0 20px;
+          background-color: #fa0064;
+          height: 30px;
+          line-height: 30px;
+          color: #fff; }
+        .user .content .right .vip ul li .group-vip .panel-body {
+          padding: 0 20px; }
+          .user .content .right .vip ul li .group-vip .panel-body p {
+            width: 45%;
+            line-height: 35px;
+            display: inline-block;
+            *display: inline;
+            *zoom: 1; }
+            .user .content .right .vip ul li .group-vip .panel-body p:first-child {
+              width: 100%; }
+          .user .content .right .vip ul li .group-vip .panel-body .vip-oprate {
+            width: 80%;
+            padding: 10px 0 25px;
+            text-align: center; }
+            .user .content .right .vip ul li .group-vip .panel-body .vip-oprate a {
+              padding: 5px 20px;
+              font-size: 12px;
+              background-color: #fa0064;
+              border-radius: 3px;
+              color: #fff;
+              margin: 0 50px; }
+              .user .content .right .vip ul li .group-vip .panel-body .vip-oprate a:hover {
+                color: #fff !important;
+                opacity: 0.7; }
+      .user .content .right .vip-mother-child ul li table tr:first-child td {
+        background-color: #fa0064;
+        color: white;
+        width: auto; }
+      .user .content .right .vip-mother-child ul li table tr td {
+        text-align: center !important;
+        line-height: 20px;
+        padding: 8px 10px;
+        vertical-align: middle; }
+        .user .content .right .vip-mother-child ul li table tr td:first-child {
+          width: auto !important;
+          min-width: 50px; }
+        .user .content .right .vip-mother-child ul li table tr td .all-money {
+          display: inline-block;
+          *display: inline;
+          *zoom: 1; }
+        .user .content .right .vip-mother-child ul li table tr td .superWarning {
+          display: inline-block;
+          *display: inline;
+          *zoom: 1; }
+        .user .content .right .vip-mother-child ul li table tr td.td-long {
+          max-width: 300px; }
+      .user .content .right .vip-mother-child ul li h4 {
+        line-height: 25px;
+        margin-bottom: 30px;
+        padding-left: 10px; }
+      .user .content .right .vip-mother-child ul li form .group span {
+        width: 100px;
+        text-align: right;
+        display: inline-block;
+        margin-right: 20px;
+        line-height: 30px;
+        *display: inline;
+        *zoom: 1; }
+      .user .content .right .vip-mother-child ul li form .group select {
+        vertical-align: top;
+        border-radius: 0;
+        height: 30px; }
+      .user .content .right .vip-mother-child ul li form .group div {
+        width: 40%;
+        display: inline-block;
+        margin: 10px 0 10px;
+        *display: inline;
+        *zoom: 1; }
+        .user .content .right .vip-mother-child ul li form .group div.long {
+          width: 80%;
+          display: block; }
+          .user .content .right .vip-mother-child ul li form .group div.long .and {
+            width: auto;
+            padding: 0 15px;
+            margin: 0; }
+          .user .content .right .vip-mother-child ul li form .group div.long select {
+            width: 120px; }
+        .user .content .right .vip-mother-child ul li form .group div input {
+          width: 50px; }
+      .user .content .right .vip-mother-child ul li form button {
+        margin-left: 250px; }
+
+/*# sourceMappingURL=user.css.map */

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>搜来福首页</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/public.css">
+	<link rel="stylesheet" href="css/pay.css">
+	<script src="js/jquery-1.9.1.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/load.js"></script>
+</head>
+<body>
+
+<div id="PUB_HEADER"></div>
+
+<div class="nav-help" style="width: 1000px;">
+	<div>
+		<a href="./index.html">搜来福</a>
+		<i class="icon icon-step-small"></i>
+		<a href="./index.html">南京</a>
+		<i class="icon icon-step-small"></i>
+		<a href="./extension-refresh.html">手动刷新</a>
+	</div>
+</div>
+
+<div class="pay pay-top">
+	<p><i class="icon icon-system"></i> 刷新操作会更新您当前的信息的时间，刷新类似重新发布</p>
+
+	<form action="./pay-zfb.html">
+		<div class="choose-box pay-way">
+			<p class="name">刷新次数 :</p>
+			<div class="radio radio-pay">
+				<label class="active">
+					<input type="radio" name="time" value="1" checked />
+					<h5>1 次</h5>
+					<i class="icon icon-active"></i>
+				</label>
+			</div>
+		</div>
+		<div class="all-price">
+			<p class="name">需&nbsp;&nbsp;支&nbsp;付 :</p><span class="superWarning">0.5</span>元
+		</div>
+
+		<div class="all-price">
+			<p>账户余额：</p>
+			<div class="balance">
+				<p>福币余额 <b>1000</b> 元，专有余额 <b>300</b> 元</p>
+				<span>(余额支付，默认优先扣除福币。)</span>
+			</div>
+		</div>
+
+		<div class="choose-box pay-way">
+			<p class="name">支付方式 :</p>
+			<div class="radio radio-pay">
+				<label>
+					<input type="radio" name="payWay" value="支付宝" />
+					<h5>支付宝</h5>
+					<i class="icon icon-active"></i>
+				</label>
+				<label>
+					<input type="radio" name="payWay" value="微信支付" />
+					<h5>微信支付</h5>
+					<i class="icon icon-active"></i>
+				</label>
+				<label>
+					<input type="radio" name="payWay" value="余额支付" />
+					<h5>余额支付</h5>
+					<i class="icon icon-active"></i>
+				</label>
+			</div>
+		</div>
+
+		<div class="submit">
+			<input type="submit" value="确认支付">
+		</div>
+	</form>
+
+
+</div>
+
+
+</body>
+</html>

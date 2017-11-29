@@ -1,0 +1,14 @@
+$(function(){
+    $("#PUB_HEADER").load("./public/header.html");
+    $("#SEARCH").load("./public/search.html");
+    $("#PUB_FOOTER").load("./public/footer.html");
+    $("#PUB_WARN").load("./public/warn.html");
+    $("#PUB_OPERATE").load("./public/operate.html");
+    $("#USER_LIST").load("./public/user-list.html");
+    $("#LIST_AD_RIGHT").load("./public/list-ad-right.html");
+    $("#LIST_AD_HEADER").load("./public/list-ad-header.html");
+    $("#LIST_AD_FOOTER").load("./public/list-ad-footer.html");
+    $("#DETAIL_AD_RIGHT").load("./public/detail-ad-right.html");
+    $("#JOB_LIST_AD_RIGHT").load("./public/job-list-ad-right.html");
+    $("#USERINFO_TOP").load("./public/userinfo-top.html");
+});

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+    <title>搜来福首页</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/sign.css">
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/load.js"></script>
+    <script src="js/form-valid.js"></script>
+</head>
+<body>
+
+<div id="PUB_HEADER"></div>
+
+<div class="sign register">
+    <ul>
+        <li class="active">用户注册</li>
+        <!--<li>企业注册</li>-->
+        <a href="./login.html"><li>已有账户？请登录</li></a>
+    </ul>
+
+    <form>
+        <div class="form-group username">
+            <i class="icon icon-user"></i>
+            <input type="text" placeholder="用户名" />
+            <div>
+                <p></p>
+                <span>2-16位，英文（区分大小写）、数字</span>
+            </div>
+        </div>
+        <div class="form-group password">
+            <i class="icon icon-password"></i>
+            <input type="password" placeholder="密码" />
+            <div>
+                <span>6-16位英文、数字或常用符号</span>
+                <p></p>
+            </div>
+        </div>
+        <div class="form-group re-password">
+            <i class="icon icon-password"></i>
+            <input type="password" placeholder="确认密码" />
+            <div>
+                <span>两次输入密码要一致</span>
+                <p></p>
+            </div>
+        </div>
+        <div class="form-group tel">
+            <i class="icon icon-tel"></i>
+            <input type="tel" placeholder="手机号" />
+            <div>
+                <p></p>
+            </div>
+        </div>
+        <div class="form-group form-group-other">
+            <i class="icon icon-valid"></i>
+            <input type="text" placeholder="图形验证码" required />
+            <div class="valid-img">
+                <img src="./img/valid.png" />
+                <a href="javascript:;">看不清，换一张</a>
+            </div>
+            <div class="small">
+                <p>验证码不正确</p>
+            </div>
+        </div>
+        <div class="form-group form-group-other">
+            <i class="icon icon-valid"></i>
+            <input type="text" placeholder="短信校验码" required />
+            <button type="button" class="message">获取短信验证码</button>
+            <div class="small">
+                <p>短信验证码错误或已过期</p>
+            </div>
+        </div>
+        <div class="form-group agreement">
+            <label><input type="checkbox" checked disabled />已阅读并同意《<a>搜来福协议</a>》</label>
+        </div>
+        <div class="form-group form-group-submit">
+            <button type="submit">注册</button>
+        </div>
+    </form>
+
+<!--    <form style="display: none">
+        <div class="form-group tel">
+            <i class="icon icon-tel"></i>
+            <input type="tel" placeholder="企业负责人手机号" />
+            <p></p>
+        </div>
+        <div class="form-group password">
+            <i class="icon icon-password"></i>
+            <input type="password" placeholder="密码" />
+            <p></p>
+        </div>
+        <div class="form-group re-password">
+            <i class="icon icon-password"></i>
+            <input type="password" placeholder="确认密码" />
+            <p></p>
+        </div>
+        <div class="form-group form-group-other">
+            <i class="icon icon-valid"></i>
+            <input type="text" placeholder="图形验证码" required />
+            <div class="valid-img"><img src="./img/valid.png" /></div>
+        </div>
+        <div class="form-group form-group-other">
+            <i class="icon icon-valid"></i>
+            <input type="text" placeholder="短信校验码" required />
+            <button type="button" class="message">获取短信验证码</button>
+        </div>
+        <div class="form-group agreement">
+            <label><input type="checkbox" checked disabled />已阅读并同意《<a>搜来福协议</a>》</label>
+        </div>
+        <div class="form-group form-group-submit">
+            <button type="submit">注册</button>
+        </div>
+    </form>-->
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>搜来福首页</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-responsive.css">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/publish.css">
+    <link rel="stylesheet" href="./css/demo.css">
+    <link rel="stylesheet" href="css/webuploader.css">
+    <link rel="stylesheet" href="css/search.css">
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/load.js"></script>
+    <script src="js/webuploader.js"></script>
+</head>
+<body>
+
+<div id="PUB_HEADER"></div>
+
+<div class="step-box">
+    <div class="step active">
+        <span>1</span>
+        <i class="icon icon-step"></i>
+        选择信息分类
+        <a href="./publish-01.html" class="to-public-class">[ 重选 ]</a>
+    </div>
+    <div class="step active">
+        <span>2</span>
+        <i class="icon icon-step"></i>
+        填写信息内容
+    </div>
+    <div class="step">
+        <span>3</span>
+        <i class="icon icon-step"></i>
+        发布成功
+    </div>
+</div>
+<!---------------选择信息填写--------------->
+<div class="publish">
+    <div class="content">
+        <form class="pub-form">
+            <div class="form-group">
+                <span><i class="text-warning">*</i>车子品牌 ：</span>
+                <select>
+                    <option selected value="不限">不限</option>
+                    <option value="初中及以下">初中及以下</option>
+                    <option value="高中">高中</option>
+                    <option value="中专">中专</option>
+                    <option value="大专">大专</option>
+                    <option value="本科">本科</option>
+                    <option value="硕士及以上">硕士及以上</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <span><i class="text-warning">*</i>首次上牌 ：</span>
+                <select>
+                    <option selected value="不限">不限</option>
+                    <option value="初中及以下">初中及以下</option>
+                    <option value="高中">高中</option>
+                    <option value="中专">中专</option>
+                    <option value="大专">大专</option>
+                    <option value="本科">本科</option>
+                    <option value="硕士及以上">硕士及以上</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <span><i class="text-warning">*</i>行驶公里 ：</span><input class="title" type="number" /> 万公里
+            </div>
+            <div class="form-group">
+                <span><i class="text-warning">*</i>价&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;格 ：</span><input class="title" type="number" /> 万元
+                <label class="checkbox"><input type="checkbox" name="guohu" value="包含过户费" />包含过户费</label>
+            </div>
+            <div class="form-group">
+
+                <span><i class="text-warning">*</i>车身颜色 ：</span></span>
+                <div>
+                    <label class="radio"><input type="radio" name="welfare" value="黑" />黑</label>
+                    <label class="radio"><input type="radio" name="welfare" value="白" />白</label>
+                    <label class="radio"><input type="radio" name="welfare" value="银" />银</label>
+                    <label class="radio"><input type="radio" name="welfare" value="灰" />灰</label>
+                    <label class="radio"><input type="radio" name="welfare" value="红" />红</label>
+                    <label class="radio"><input type="radio" name="welfare" value="蓝" />蓝</label>
+                    <label class="radio"><input type="radio" name="welfare" value="黄" />黄</label>
+                    <label class="radio"><input type="radio" name="welfare" value="棕" />棕</label>
+                    <label class="radio"><input type="radio" name="welfare" value="绿" />绿</label>
+                    <label class="radio"><input type="radio" name="welfare" value="橙" />橙</label>
+                    <label class="radio"><input type="radio" name="welfare" value="紫" />紫</label>
+                    <label class="radio"><input type="radio" name="welfare" value="金" />金</label>
+                    <label class="radio"><input type="radio" name="welfare" value="香槟" />香槟</label>
+                    <label class="radio"><input type="radio" name="welfare" value="粉红" />粉红</label>
+                    <label class="radio"><input type="radio" name="welfare" value="其他" />其他</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <span><i class="text-warning">*</i>车体照片 ：</span><input class="title" type="file" />
+            </div>
+            <div class="form-group">
+                <span><i class="text-warning">*</i>行驶证照片 ：</span><input class="title" type="file" />
+            </div>
+            <div class="form-group">
+                <span><i class="text-warning">*</i>车架号 ：</span><input type="text" />
+            </div>
+            <div class="form-group">
+                <span><i class="text-warning">*</i>信息描述 ：</span><textarea type="text" placeholder="车子状况，牌照，改装配置等"></textarea>
+            </div>
+            <div class="form-group">
+                <span><i class="text-warning">*</i>地址 ：</span><input type="text" />
+            </div>
+            <div class="form-group">
+                <span><i class="text-warning">*</i>联系人 ：</span><input type="text" />
+            </div>
+            <div class="form-group">
+                <span><i class="text-warning">*</i>联系电话 ：</span><input type="text" />
+            </div>
+
+            <button type="submit">确认提交</button>
+
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

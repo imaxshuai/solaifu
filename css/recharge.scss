@@ -1,0 +1,35 @@
+.recharge{
+
+  h3{
+    color: #333;
+    font-size: 20px;
+  }
+  form{
+    margin-top: 20px;
+    .group{
+      width: 400px;
+      height: 60px;
+      margin: 0 auto;
+    }
+    input,select{
+      margin: 5px 10px;
+    }
+    input[type=number]{
+      width: 50px;
+    }
+    label{
+      display: inline-block;
+      *display: inline;
+      *zoom: 1;
+    }
+    .QR{
+      width: 100px;
+      margin-left: 160px;
+      text-align: center;
+      img{
+        width: 100px;
+      }
+    }
+  }
+
+}

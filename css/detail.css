@@ -1,0 +1,462 @@
+@charset "UTF-8";
+body {
+  background-color: #fcfcfc; }
+
+.pro-detail {
+  width: 1190px;
+  margin: 5px auto;
+  min-height: 500px;
+  position: relative; }
+  .pro-detail .item-detail {
+    width: 860px;
+    background-color: #ffffff;
+    min-height: 300px;
+    padding: 20px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1; }
+    .pro-detail .item-detail .header h1 {
+      font-weight: bold;
+      font-size: 25px;
+      margin-bottom: 20px; }
+    .pro-detail .item-detail .header p {
+      color: #666666; }
+      .pro-detail .item-detail .header p i {
+        font-style: normal;
+        color: #000; }
+    .pro-detail .item-detail .content .carousel-main {
+      width: 900px;
+      height: 350px;
+      margin-top: 20px;
+      position: relative; }
+      .pro-detail .item-detail .content .carousel-main .carousel {
+        width: 335px;
+        height: 340px;
+        overflow: hidden;
+        position: relative; }
+        .pro-detail .item-detail .content .carousel-main .carousel .big {
+          min-width: 3000px; }
+          .pro-detail .item-detail .content .carousel-main .carousel .big li {
+            float: left; }
+            .pro-detail .item-detail .content .carousel-main .carousel .big li img {
+              width: 335px;
+              height: 270px;
+              border-radius: 3px; }
+        .pro-detail .item-detail .content .carousel-main .carousel .small {
+          clear: both;
+          min-width: 3000px;
+          height: 60px;
+          position: relative;
+          top: 10px;
+          left: 17px; }
+          .pro-detail .item-detail .content .carousel-main .carousel .small li {
+            float: left;
+            padding: 0 3px;
+            opacity: 0.3; }
+            .pro-detail .item-detail .content .carousel-main .carousel .small li.activeImg {
+              opacity: 1; }
+            .pro-detail .item-detail .content .carousel-main .carousel .small li img {
+              width: 70px;
+              height: 60px;
+              border-radius: 3px;
+              cursor: pointer; }
+        .pro-detail .item-detail .content .carousel-main .carousel .tab {
+          width: 15px;
+          line-height: 60px;
+          background-color: rgba(0, 0, 0, 0.8);
+          color: #fff;
+          text-align: center;
+          font-size: 16px;
+          cursor: pointer; }
+        .pro-detail .item-detail .content .carousel-main .carousel .tab01 {
+          position: absolute;
+          bottom: 0;
+          left: 0; }
+        .pro-detail .item-detail .content .carousel-main .carousel .tab02 {
+          position: absolute;
+          bottom: 0;
+          right: 0; }
+      .pro-detail .item-detail .content .carousel-main .about {
+        position: absolute;
+        top: 40px;
+        left: 350px;
+        height: 290px; }
+        .pro-detail .item-detail .content .carousel-main .about label, .pro-detail .item-detail .content .carousel-main .about h4, .pro-detail .item-detail .content .carousel-main .about h3 {
+          font-size: 16px;
+          display: inline-block;
+          *display: inline;
+          *zoom: 1;
+          line-height: 40px; }
+        .pro-detail .item-detail .content .carousel-main .about label {
+          width: 120px;
+          text-align: right; }
+        .pro-detail .item-detail .content .carousel-main .about h3 {
+          font-size: 25px;
+          color: #fa0064; }
+        .pro-detail .item-detail .content .carousel-main .about h4, .pro-detail .item-detail .content .carousel-main .about h3 {
+          margin-left: 50px; }
+    .pro-detail .item-detail .content .info {
+      margin-top: 30px;
+      width: 100%;
+      min-height: 300px; }
+      .pro-detail .item-detail .content .info .title {
+        height: 45px;
+        border-bottom: 1px solid #ccc; }
+        .pro-detail .item-detail .content .info .title h3 {
+          margin: 0;
+          display: inline-block;
+          *display: inline;
+          *zoom: 1;
+          float: left;
+          color: #333; }
+        .pro-detail .item-detail .content .info .title span {
+          float: right;
+          width: 100px;
+          font-size: 14px;
+          font-weight: normal;
+          cursor: pointer;
+          margin-top: 10px; }
+          .pro-detail .item-detail .content .info .title span .icon-like {
+            width: 18px;
+            height: 16px;
+            background: url("../img/icon.png") no-repeat -42px -100px;
+            margin-right: 2px; }
+          .pro-detail .item-detail .content .info .title span .icon-like-true {
+            background: url("../img/icon.png") no-repeat -115px -100px; }
+      .pro-detail .item-detail .content .info .info-item .block1 {
+        margin-left: 30px;
+        width: 380px;
+        display: inline-block;
+        *display: inline;
+        *zoom: 1; }
+        .pro-detail .item-detail .content .info .info-item .block1.long {
+          width: 800px; }
+          .pro-detail .item-detail .content .info .info-item .block1.long span {
+            display: inline-block;
+            *display: inline;
+            *zoom: 1;
+            width: 630px;
+            vertical-align: top; }
+      .pro-detail .item-detail .content .info .info-item h2 {
+        color: #666;
+        width: 100%;
+        line-height: 30px;
+        padding-left: 15px;
+        border-left: 5px solid #fa0064;
+        font-size: 18px;
+        font-weight: bold; }
+      .pro-detail .item-detail .content .info .info-item span {
+        padding-left: 30px; }
+      .pro-detail .item-detail .content .info .info-item label, .pro-detail .item-detail .content .info .info-item span {
+        font-size: 16px;
+        display: inline-block;
+        *display: inline;
+        *zoom: 1;
+        line-height: 30px;
+        margin: 10px 0; }
+      .pro-detail .item-detail .content .info .info-item label {
+        width: 120px;
+        text-align: left; }
+      .pro-detail .item-detail .content .info .block3 {
+        margin: 15px 0; }
+        .pro-detail .item-detail .content .info .block3 img {
+          width: 415px;
+          height: 320px;
+          margin: 5px 2px; }
+        .pro-detail .item-detail .content .info .block3 .more-img {
+          display: none; }
+      .pro-detail .item-detail .content .info .see-more {
+        text-align: center;
+        color: #fa0064;
+        font-size: 18px;
+        cursor: pointer; }
+  .pro-detail .user-detail {
+    width: 280px;
+    min-height: 500px;
+    background-color: #fff;
+    text-align: center;
+    vertical-align: top;
+    margin-left: 5px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1; }
+    .pro-detail .user-detail .user {
+      padding: 20px;
+      background-color: #fff; }
+      .pro-detail .user-detail .user .avatar {
+        width: 100px;
+        height: 100px; }
+      .pro-detail .user-detail .user h3 {
+        font-size: 20px;
+        font-weight: bold;
+        color: #666666;
+        margin-bottom: 0; }
+      .pro-detail .user-detail .user .go-info {
+        font-size: 14px;
+        padding: 3px 15px;
+        color: #ffffff;
+        background-color: #fa0064;
+        border-radius: 3px;
+        border: 1px solid #fa0064;
+        outline: none;
+        cursor: pointer; }
+        .pro-detail .user-detail .user .go-info:hover {
+          opacity: 0.8;
+          color: #fff !important; }
+      .pro-detail .user-detail .user .open {
+        margin-top: 10px; }
+      .pro-detail .user-detail .user span {
+        font-size: 14px;
+        line-height: 30px; }
+      .pro-detail .user-detail .user .title {
+        height: 15px;
+        border-bottom: 1px solid #aaa; }
+        .pro-detail .user-detail .user .title p {
+          line-height: 28px;
+          font-size: 14px;
+          background-color: #ffffff;
+          display: inline-block;
+          *display: inline;
+          *zoom: 1;
+          padding: 0 10px; }
+      .pro-detail .user-detail .user ul {
+        margin: 20px 0;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #aaa; }
+        .pro-detail .user-detail .user ul li {
+          width: 100%;
+          font-size: 14px;
+          line-height: 30px;
+          white-space: pre;
+          overflow: hidden; }
+      .pro-detail .user-detail .user button {
+        width: 80%;
+        height: 30px;
+        line-height: 28px; }
+
+.job-detail {
+  position: relative; }
+  .job-detail .item-detail .header {
+    position: relative; }
+    .job-detail .item-detail .header .left {
+      display: inline-block;
+      *display: inline;
+      *zoom: 1;
+      width: 650px; }
+      .job-detail .item-detail .header .left p {
+        margin-bottom: 15px; }
+        .job-detail .item-detail .header .left p span {
+          color: #ccc;
+          padding: 0 10px; }
+        .job-detail .item-detail .header .left p .icon-address {
+          width: 12px;
+          height: 15px;
+          background: url("../img/icon.png") no-repeat -96px -100px;
+          margin-right: 5px; }
+      .job-detail .item-detail .header .left .item {
+        width: 420px;
+        margin-bottom: 10px;
+        font-size: 14px;
+        display: inline-block;
+        vertical-align: top;
+        *display: inline;
+        *zoom: 1; }
+        .job-detail .item-detail .header .left .item.item-small {
+          width: 200px; }
+          .job-detail .item-detail .header .left .item.item-small span {
+            width: 100px;
+            vertical-align: top;
+            display: inline-block;
+            *display: inline;
+            zoom: 1; }
+        .job-detail .item-detail .header .left .item.item-long {
+          width: 550px; }
+        .job-detail .item-detail .header .left .item span {
+          width: 300px;
+          vertical-align: top;
+          display: inline-block;
+          *display: inline;
+          zoom: 1; }
+        .job-detail .item-detail .header .left .item label {
+          display: inline-block;
+          *display: inline;
+          *zoom: 1;
+          width: 80px;
+          margin-bottom: 5px;
+          font-size: 14px;
+          color: #aaa; }
+      .job-detail .item-detail .header .left .tel {
+        margin-bottom: 10px; }
+        .job-detail .item-detail .header .left .tel span {
+          line-height: 40px; }
+          .job-detail .item-detail .header .left .tel span.see {
+            cursor: pointer;
+            color: #fa0064; }
+        .job-detail .item-detail .header .left .tel h3 {
+          display: inline;
+          color: #fa0064; }
+      .job-detail .item-detail .header .left .welfare {
+        width: 450px;
+        display: inline-block;
+        vertical-align: top; }
+        .job-detail .item-detail .header .left .welfare span {
+          display: inline-block;
+          padding: 3px 5px;
+          background-color: #ffa6ca;
+          color: white;
+          margin: 0 10px 10px 0;
+          cursor: pointer; }
+      .job-detail .item-detail .header .left .superWarning {
+        font-size: 20px; }
+    .job-detail .item-detail .header .right {
+      display: inline-block;
+      *display: inline;
+      *zoom: 1;
+      vertical-align: top;
+      width: 205px; }
+      .job-detail .item-detail .header .right h3 {
+        color: #fa0064;
+        font-size: 22px;
+        text-align: right; }
+      .job-detail .item-detail .header .right a {
+        padding: 10px 30px;
+        background-color: #fa0064;
+        color: #fff;
+        display: inline-block;
+        float: right;
+        *display: inline;
+        *zoom: 1;
+        position: absolute;
+        right: 0;
+        bottom: 20px; }
+        .job-detail .item-detail .header .right a:hover {
+          color: #fff !important;
+          opacity: 0.7; }
+  .job-detail .item-detail .content .info .info-item .title {
+    height: 45px; }
+    .job-detail .item-detail .content .info .info-item .title h3 {
+      margin: 0;
+      display: inline-block;
+      *display: inline;
+      *zoom: 1;
+      float: left; }
+    .job-detail .item-detail .content .info .info-item .title span {
+      float: right;
+      width: 100px;
+      font-size: 14px;
+      font-weight: normal;
+      cursor: pointer;
+      margin-top: 10px; }
+      .job-detail .item-detail .content .info .info-item .title span .icon-like {
+        width: 18px;
+        height: 16px;
+        background: url("../img/icon.png") no-repeat -42px -100px;
+        margin-right: 2px; }
+      .job-detail .item-detail .content .info .info-item .title span .icon-like-true {
+        background: url("../img/icon.png") no-repeat -115px -100px; }
+  .job-detail .item-detail .content .info .info-item pre {
+    background-color: white;
+    border: none;
+    font-size: 14px;
+    color: #444;
+    line-height: 25px;
+    font-family: "Microsoft Yahei"; }
+  .job-detail .comment-list {
+    width: 860px;
+    padding: 20px;
+    background-color: white;
+    border-bottom: 1px solid #ccc; }
+    .job-detail .comment-list .comment {
+      border-top: 1px solid #ccc;
+      padding: 20px 0 0; }
+      .job-detail .comment-list .comment .avatar {
+        width: 60px;
+        height: 130px;
+        display: inline-block;
+        *display: inline;
+        *zoom: 1; }
+        .job-detail .comment-list .comment .avatar img {
+          width: 60px;
+          height: 60px;
+          border-radius: 50%; }
+      .job-detail .comment-list .comment .content {
+        width: 760px;
+        display: inline-block;
+        *display: inline;
+        *zoom: 1;
+        vertical-align: top; }
+        .job-detail .comment-list .comment .content p {
+          line-height: 30px; }
+      .job-detail .comment-list .comment .footer {
+        width: 750px;
+        height: 30px;
+        margin-left: 60px;
+        color: #aaa; }
+        .job-detail .comment-list .comment .footer .left {
+          float: left; }
+        .job-detail .comment-list .comment .footer .right {
+          float: right;
+          cursor: pointer; }
+      .job-detail .comment-list .comment .comment-child {
+        width: 800px;
+        border-top: 1px solid #ccc;
+        margin-left: 60px;
+        padding: 20px 0 0; }
+        .job-detail .comment-list .comment .comment-child .avatar {
+          width: 60px;
+          height: 130px;
+          display: inline-block;
+          *display: inline;
+          *zoom: 1; }
+          .job-detail .comment-list .comment .comment-child .avatar img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%; }
+        .job-detail .comment-list .comment .comment-child .content {
+          width: 710px;
+          display: inline-block;
+          *display: inline;
+          *zoom: 1;
+          vertical-align: top; }
+          .job-detail .comment-list .comment .comment-child .content p {
+            line-height: 30px; }
+    .job-detail .comment-list .comment-form {
+      margin-top: 50px;
+      background-color: white; }
+      .job-detail .comment-list .comment-form .group span {
+        margin-right: 20px;
+        display: inline-block;
+        *display: inline;
+        *zoom: 1;
+        height: 100%; }
+      .job-detail .comment-list .comment-form .group textarea {
+        vertical-align: top;
+        width: 500px;
+        height: 100px; }
+      .job-detail .comment-list .comment-form .group img {
+        margin-left: 100px; }
+      .job-detail .comment-list .comment-form input[type=submit] {
+        padding: 8px 20px;
+        background-color: #48cfae;
+        margin-left: 100px;
+        border: none;
+        color: white;
+        margin-top: 20px; }
+
+/*弹出框样式*/
+.idea .modal-body-job {
+  background: #f00;
+  text-align: center !important; }
+  .idea .modal-body-job .form-group {
+    width: 315px;
+    display: inline-block;
+    text-align: left; }
+    .idea .modal-body-job .form-group input[type=radio] {
+      margin-top: 8px;
+      margin-right: 10px;
+      vertical-align: top; }
+    .idea .modal-body-job .form-group label {
+      text-align: left;
+      width: 70px; }
+
+/*# sourceMappingURL=detail.css.map */

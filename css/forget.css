@@ -1,0 +1,62 @@
+.forget {
+  min-height: 600px; }
+  .forget .userinfo {
+    width: 900px;
+    margin: 50px auto;
+    color: #777; }
+    .forget .userinfo p {
+      margin-left: 50px; }
+      .forget .userinfo p .icon-warning {
+        width: 20px;
+        height: 18px;
+        background: url("../img/icon.png") -161px -292px;
+        margin-right: 10px; }
+    .forget .userinfo form {
+      margin: 50px 200px; }
+      .forget .userinfo form .group {
+        margin: 50px 0; }
+        .forget .userinfo form .group span {
+          line-height: 35px;
+          padding-right: 20px; }
+        .forget .userinfo form .group input {
+          width: 270px;
+          margin: 0;
+          height: 30px;
+          border-radius: 0; }
+        .forget .userinfo form .group button {
+          height: 40px;
+          width: 150px;
+          margin-left: 10px;
+          line-height: 38px;
+          text-align: center;
+          border-radius: 3px;
+          color: #fa0064;
+          font-weight: bold;
+          border: 1px solid #fa0064;
+          background-color: #f5ddea; }
+          .forget .userinfo form .group button[type=submit] {
+            margin-left: 82px;
+            background-color: #fa0064;
+            border: none;
+            color: white; }
+      .forget .userinfo form .valid input {
+        width: 100px; }
+      .forget .userinfo form .valid img {
+        height: 40px;
+        margin-left: 20px; }
+    .forget .userinfo .sucess {
+      width: 320px;
+      margin: 100px auto; }
+      .forget .userinfo .sucess img {
+        width: 90px;
+        height: 90px; }
+      .forget .userinfo .sucess h5 {
+        color: #aaa;
+        display: inline-block;
+        margin-left: 20px; }
+
+.footer {
+  text-align: center;
+  color: #888; }
+
+/*# sourceMappingURL=forget.css.map */
