@@ -227,6 +227,13 @@ body{
                   border-bottom: 1px solid #f3f3f3;
                   a{
                     color: #666;
+                    &.a-middle{
+                      line-height: 49px;
+                    }
+                  }
+                  .time{
+                    color: #aaa;
+                    font-size: 12px;
                   }
                   &:first-child{
                     width: 450px;
@@ -254,7 +261,7 @@ body{
                     }
                   }
                   &.long{
-                    width: 700px;
+                    width: 600px;
                     h4{
                       width: 600px;
                     }
@@ -610,7 +617,7 @@ body{
                     .operate{
                       height: 75px;
                       .group{
-                        width: 170px;
+                        width: 150px;
                         height: 20px;
                         padding-top: 5px;
                         text-align: left;
@@ -628,9 +635,10 @@ body{
                           *display: inline;
                           *zoom: 1;
                           &:first-child{
+                            width: 60px;
                             text-align: right;
                             padding: 0 10px 0 0;
-                            border-right: 1px solid #ddd;
+                            //border-right: 1px solid #ddd;
                           }
                         }
                       }

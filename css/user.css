@@ -175,6 +175,11 @@ body {
             border-bottom: 1px solid #f3f3f3; }
             .user .content .right .info ul li table tr td a {
               color: #666; }
+              .user .content .right .info ul li table tr td a.a-middle {
+                line-height: 49px; }
+            .user .content .right .info ul li table tr td .time {
+              color: #aaa;
+              font-size: 12px; }
             .user .content .right .info ul li table tr td:first-child {
               width: 450px; }
               .user .content .right .info ul li table tr td:first-child h4 {
@@ -197,7 +202,7 @@ body {
                   font-size: 12px;
                   color: #fa0064; }
             .user .content .right .info ul li table tr td.long {
-              width: 700px; }
+              width: 600px; }
               .user .content .right .info ul li table tr td.long h4 {
                 width: 600px; }
             .user .content .right .info ul li table tr td.longbig {
@@ -438,7 +443,7 @@ body {
           .user .content .right .publish-info ul li table tr td:last-child .operate {
             height: 75px; }
             .user .content .right .publish-info ul li table tr td:last-child .operate .group {
-              width: 170px;
+              width: 150px;
               height: 20px;
               padding-top: 5px;
               text-align: left;
@@ -456,9 +461,9 @@ body {
                 *display: inline;
                 *zoom: 1; }
                 .user .content .right .publish-info ul li table tr td:last-child .operate .group span:first-child {
+                  width: 60px;
                   text-align: right;
-                  padding: 0 10px 0 0;
-                  border-right: 1px solid #ddd; }
+                  padding: 0 10px 0 0; }
       .user .content .right .publish-info ul li table tr .show-run {
         width: 200px;
         padding: 20px 20px; }

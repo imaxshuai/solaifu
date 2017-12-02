@@ -11,8 +11,11 @@
   .ad{
     width: 592px;
     height: 70px;
-    background-color: #2f96b4;
     float: left;
+    img{
+      width: 592px;
+      height: 70px;
+    }
     &.ad02{
       margin-left: 6px;
     }

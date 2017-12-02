@@ -260,3 +260,30 @@ body{
     }
   }
 }
+
+.pay-success{
+  .success{
+    width: 600px;
+    height: 220px;
+    margin: 50px auto;
+    text-align: center;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px #888;
+  }
+  h4{
+    color: #999;
+    margin: 20px 0;
+  }
+  img{
+
+  }
+  .info{
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    padding: 0 10px;
+    span{
+      line-height: 30px;
+    }
+  }
+}

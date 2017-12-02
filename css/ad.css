@@ -11,8 +11,10 @@
   .foot-ad .ad {
     width: 592px;
     height: 70px;
-    background-color: #2f96b4;
     float: left; }
+    .foot-ad .ad img {
+      width: 592px;
+      height: 70px; }
     .foot-ad .ad.ad02 {
       margin-left: 6px; }
 

@@ -199,4 +199,22 @@ body {
     .pay-zfb p .superWarning {
       font-size: 16px; }
 
+.pay-success .success {
+  width: 600px;
+  height: 220px;
+  margin: 50px auto;
+  text-align: center;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px #888; }
+.pay-success h4 {
+  color: #999;
+  margin: 20px 0; }
+.pay-success .info {
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  padding: 0 10px; }
+  .pay-success .info span {
+    line-height: 30px; }
+
 /*# sourceMappingURL=pay.css.map */

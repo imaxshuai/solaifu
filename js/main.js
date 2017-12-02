@@ -1,13 +1,11 @@
 $(function () {
 
-    $(".publish .content li").hover(function () {
-        $(this).css({"z-index": "1000"});
-        $(this).find("h5").addClass("active");
-        $(this).find(".list").css({"display": "block"});
-    }, function () {
-        $(this).css({"z-index": "1"});
-        $(this).find("h5").removeClass("active");
-        $(this).find(".list").css({"display": "none"});
+    //发布页面数据切换
+    $(".publish .content li p").hover(function () {
+        $(".publish .content li").children("p").removeClass("active");
+        $(".publish .content li").children(".list").css({"display": "none"});
+        $(this).addClass("active");
+        $(this).siblings(".list").css({"display": "block"});
     })
 
     //详情页查看更多图片
