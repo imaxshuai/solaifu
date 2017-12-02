@@ -479,6 +479,17 @@ body{
               text-indent: 20px;
               line-height: 28px;
             }
+            .message{
+              height: 30px;
+              padding: 0 10px;
+              line-height: 30px;
+              background-color: #fa0064;
+              color: #FFFFFF;
+              border: none;
+              border-radius: 3px;
+              display: inline-block;
+              margin: 20px auto;
+            }
             select{
               margin: 0 0 0 14px;
               padding: 5px 0;
